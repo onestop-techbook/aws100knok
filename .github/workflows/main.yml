@@ -1,0 +1,51 @@
+name: build book
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Install IBM Plex Sans
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-ibm-plex
+          fc-list | grep -i "ibm plex"
+
+      - name: Install Harano Aji fonts
+        run: |
+          cp ./fonts/HaranoAji*.otf /usr/share/fonts/
+
+      - name: Install BIZ UD Gothic/Mincho
+        run: |
+          sudo wget https://github.com/googlefonts/morisawa-biz-ud-mincho/releases/download/v1.06/BIZUDMincho-Regular.ttf -P /usr/share/fonts/truetype/
+          sudo wget https://github.com/googlefonts/morisawa-biz-ud-mincho/releases/download/v1.06/BIZUDMincho-Bold.ttf -P /usr/share/fonts/truetype/
+
+      - name: Check installed fonts
+        run: |
+          fc-cache -fv
+          fc-list | grep -i "harano" || true
+          fc-list | grep -i "biz" || true
+
+      - name: build book for screen
+        run: bun run build
+
+      - name: build book for print
+        run: bun run build:print
+
+      # PDFのアップロード
+      - name: Upload PDF artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Artifacts
+          path: ./*.pdf
+          retention-days: 3
