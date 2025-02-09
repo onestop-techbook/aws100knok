@@ -1,0 +1,426 @@
+/* see. @vivliostyle/theme-base@2.0.0 */
+@import url(theme-base/css/common/meta-properties.css);
+@import url(theme-base/css/common/reset.css);
+@import url(theme-base/css/common/basic.css);
+@import url(theme-base/css/partial/crossref.css);
+/* @import url(theme-base/css/partial/endnote.css); */
+@import url(theme-base/css/partial/footnote.css);
+/* @import url(theme-base/css/partial/footnote-external-link.css); */
+@import url(theme-base/css/partial/page.css);
+@import url(theme-base/css/partial/section.css);
+@import url(theme-base/css/partial/toc.css);
+@import url(theme-base/css/partial/utility-classes.css);
+
+/* see. @vivliostyle/theme-techbook@2.0.0 */
+:root {
+  --vs-font-size-on-print: 75%;
+  --vs-line-height: 1.7;
+  --vs-widows-orphans: 3;
+  --vs--p-text-indent: 1em;
+  --vs--p-margin-block: 0;
+
+  --vs--heading-line-height: 1.2;
+  --vs--h1-font-size: 2em;
+  --vs--h2-font-size: 1.5em;
+  --vs--h3-font-size: 1.2em;
+  --vs--h4-font-size: 1em;
+  --vs--h5-font-size: 1em;
+  --vs--h6-font-size: 0.83em;
+  --vs--blockquote-margin-inline: 0;
+  --vs--ul-minimum-inline-indent-size: 1rem;
+  --vs--table-border-width-block-start: 1px;
+  --vs--table-border-width-block-end: 1px;
+  --vs--table-border-width-inline-start: 0;
+  --vs--table-border-width-inline-end: 0;
+  --vs--table-border-width-thead-inner: 1px;
+  --vs--table-border-width-tfoot-inner: 1px;
+  --vs--table-border-width-column: 0;
+  --vs--table-border-width-row: 0.4px;
+  --vs--table-cell-padding-inline: 0.75rem;
+
+  --vs-footnote--area-before-margin-block: calc(var(--vs-spacing-rlh) * 0.25);
+  --vs-footnote--area-before-margin-inline: 0 70%;
+  --vs-footnote--area-margin-block: var(--vs-spacing-rlh) 0;
+
+  --vs-page--margin-top: 25mm;
+  --vs-page--margin-bottom: 25mm;
+  --vs-page--margin-inner: 22mm;
+  --vs-page--margin-outer: 22mm;
+
+  --vs-prism--inline-code-padding: 0.1em 0.3em;
+  --vs-prism--text-shadow: none;
+
+  --vs--h2-margin-block: 2em 1em;
+  --vs--h3-margin-block: 2em 1em;
+
+/* --vs--figure-item-padding-inline: 0; */
+  /* --vs--figure-margin-block: 4em; */
+}
+
+blockquote {
+  background-color: var(--vs-theme--blockquote-color-bg);
+  border-radius: var(--vs-prism--block-code-border-radius);
+  color: var(--vs-theme--blockquote-color-body);
+  padding: var(--vs-prism--block-code-padding);
+}
+
+blockquote > p:first-child {
+  margin-block-start: unset;
+}
+
+blockquote > p:last-child {
+  margin-block-end: unset;
+}
+
+figure > figcaption {
+  font-family: var(--vs--heading-font-family);
+}
+/* for codeblock */
+figure > figcaption:first-child {
+  margin: 0;
+}
+/* for image */
+figure > figcaption:last-child {
+  margin-block-start: calc(var(--vs-spacing-rlh) / 2);
+  margin-block-end: 0;
+}
+figure > pre {
+  margin-block-start: calc(var(--vs-spacing-rlh) / 2);
+  margin-block-end: 0;
+}
+
+/*
+ * According to the specification, image-resolution is not applied to vector images,
+ * but Vivliostyle applies it to vector images as well.
+ * We set image-resolution only for images with raster image extensions.
+ * https://docs.vivliostyle.org/#/supported-css-features#css-images-3
+ */
+figure
+  img:is(
+    [src$='.png'],
+    [src$='.jpg'],
+    [src$='.jpeg'],
+    [src$='.gif'],
+    [src$='.webp'],
+    [src$='.apng']
+  ) {
+  --vs--img-image-resolution: var(
+    --vs-theme--image-resolution-for-figure-image
+  );
+}
+
+/* format for inline code */
+:not(pre) > code {
+  --vs-prism--background: var(--vs-theme--inline-code-color-bg);
+  --vs-prism--color: var(--vs-theme--inline-code-color-body);
+}
+
+@media screen {
+  :root {
+    --vs--anchor-color: var(--vs-theme--anchor-color-body);
+    --vs--anchor-text-decoration: none;
+    --vs--anchor-text-decoration-on-hover: underline;
+  }
+
+  body {
+    max-inline-size: 50rem;
+    margin: 2rem auto 2rem;
+    padding: 0 var(--vs-spacing-inline-indent);
+  }
+
+  .footnote {
+    display: block;
+    background-color: var(--vs-theme--footnote-color-bg-on-screen);
+    border-radius: var(--vs-prism--block-code-border-radius);
+    margin-block: var(--vs--blockquote-margin-block);
+    padding: var(--vs-prism--block-code-padding);
+  }
+
+  a[data-ref] {
+    color: var(--vs-theme--crossref-anchor-color-body-on-screen);
+    background-color: var(--vs-theme--crossref-anchor-color-bg-on-screen);
+  }
+}
+
+@page :left {
+  --vs-theme--page-top-left-content: '第' counter(vs-counter-chapter) '章 ' env(doc-title);
+  --vs-page--mbox-content-top-left: var(--vs-theme--page-top-left-content);
+  --vs-page--mbox-content-bottom-left: var(--vs-theme--page-bottom-content);
+}
+
+@page :right {
+  --vs-page--mbox-content-top-right: var(--vs-theme--page-top-right-content);
+  --vs-page--mbox-content-bottom-right: var(--vs-theme--page-bottom-content);
+}
+
+#toc,
+nav[role='doc-toc'] {
+  break-before: page;
+  font-size: 100%;
+}
+
+#toc li[data-section-level='1'] > span, #toc li[data-section-level='1'] > a {
+  font-family: var(--vs--heading-font-family);
+}
+
+code {
+  text-shadow: none;
+}
+
+pre {
+  width: 100%;
+}
+
+table {
+  font-size: 80%;
+}
+
+table th {
+  white-space: nowrap;
+}
+
+/* p + p {
+  margin-top: 0;
+}
+
+p:has(+ p) {
+  margin-bottom: 0;
+} */
+
+.column {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.column-title {
+  font-weight: bold;
+  font-family: var(--vs--heading-font-family);
+  margin-bottom: 0.5rem;
+}
+
+.column-title::before {
+  content: "■コラム";
+  margin-right: 0.5rem;
+}
+
+.column p:last-child {
+  margin-bottom: 0;
+}
+
+.flush-right {
+  text-align: right;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+/*
+https://gihyo.jp/article/2024/04/vivliostyle-03
+vs-counter-chapterはclass: chapterが定義されているページのみカウントされる
+*/
+:root {
+  /* 本文フォント */
+  --vs-font-family: 'IBM Plex Serif', 'mincho';
+  /* 等幅フォント（コードブロックで利用される）のフォント */
+
+  --vs--monospace-font-family: 'Cas Mono', 'gothic';
+  --vs--monospace-font-size: 0.9em;
+  --vs--monospace-line-height: 1.4;
+  --vs-page--mbox-font-family: var(--vs--heading-font-family);
+
+  /* 見出し */
+  --vs--heading-line-height: 1.2;
+  --vs-section--h1-marker-content: '第' counter(vs-counter-chapter) '章';
+  --vs-section--h2-marker-content: counter(vs-counter-chapter) '.' counter(vs-counter-sec-h2);
+  --vs-section--h3-marker-content: counter(vs-counter-chapter) '.' counter(vs-counter-sec-h2) '.' counter(vs-counter-sec-h3);
+  --vs-section--h4-marker-display: none;
+  --vs-section--h5-marker-display: none;
+  --vs-section--h6-marker-display: none;
+  --vs--heading-font-family: 'gothic';
+  --vs--heading-font-weight: 700;
+
+  /* 目次 */
+  --vs-toc--page-leader-content: leader(' ');
+
+
+  --vs-footnote--font-size: 0.85em;
+}
+
+/* まえがき・あとがきなどを除外するため。
+ * 本文用のクラス定義をしている。FrontMatterでclass: chapterを指定すること。
+ */
+.chapter {
+  --vs-section--marker-display: inline;
+
+  /* margin box に番号を付与する */
+  --vs-theme--page-top-right-content: '第' counter(vs-counter-chapter) '章' env(doc-title) ' ';
+  /* --vs-theme--page-top-left-content: '第' counter(vs-counter-chapter) '章' env(doc-title) ' '; */
+  /* --vs-theme--page-top-right-content: counter(vs-counter-chapter) '.' counter(vs-counter-sec-h2); */
+}
+
+.chapter h1:first-child::before {
+  display: block;
+  font-size: 75%;
+  margin-bottom: calc(var(--vs-spacing-rlh) / 2);
+}
+
+/* FIXME: チャプターの１ページ目だけ柱の文字列を消すための回り道
+  上から白いレイヤーを重ねて見えなくしている */
+
+@page {
+  @top-right {
+    z-index: -1;
+  }
+}
+.chapter h1:first-child {
+  position: relative;
+}
+
+.chapter h1:after {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  top: -120px;
+  height: 120px;
+  background-color: white;
+  z-index: 100;
+}
+
+.chapter h2 {
+  counter-reset: vs-counter-sec-h3;
+}
+
+/* 右側ページの上部には現在のh2セクションの内容を表示する */
+/* FIXME: ここに vs-counter-chapter の取得を試みても表示されないので、章が始まるページで「2.」といった内容になってしまう */
+.chapter h2 {
+  string-set: section-h2-title counter(vs-counter-sec-h2) '  ' content();
+}
+
+@page :right {
+  --vs-theme--page-top-right-content: counter(vs-counter-chapter) '.' string(section-h2-title, start);
+}
+
+/* NOTE: 目次に含まれるh1を消すためのワークアラウンド */
+h1:has(+ #toc) {
+  display: none;
+}
+
+/* 目次で最初のtitleページを非表示にする */
+#toc h2 + ol > li:first-child {
+  display: none;
+}
+
+/* 目次の章番号を表示するためのスタイル */
+:is(#toc, [role='doc-toc']) li > a[href^="chap"]::before {
+  content: "第" target-counter(attr(href), vs-counter-chapter) "章";
+  margin-right: 1em;
+}
+
+:is(#toc, [role='doc-toc']) li ol li > a[href^="chap"]:before {
+  content: target-counter(attr(href), vs-counter-chapter) "." target-counter(attr(href), vs-counter-sec-h2);
+  margin-right: 1em;
+}
+
+:is(#toc, [role='doc-toc']) li {
+  margin-top: 1.4em;
+  font-weight: 600;
+}
+
+:is(#toc, [role='doc-toc']) li ol li {
+  margin-left: -1em;
+  margin-top: 0em;
+  --vs-toc--page-leader-content: leader(' . ');
+  font-weight: 500;
+}
+
+/* あとがきや著者紹介のh2は表示しない */
+:is(#toc, [role='doc-toc']) li > a[href^="9"] + ol {
+  display: none;
+}
+
+/* 奥付は表示しない */
+:is(#toc, [role='doc-toc']) li > a[href="99-colophon.html"] {
+  display: none;
+}
+
+:root:has(#toc), .preface, .afterword {
+  --vs-page--mbox-visibility: hidden;
+}
+
+@import url(./colophon.css);
+
+.author {
+  --vs-page--mbox-visibility: hidden;
+}
+
+.author img {
+  border-radius: 50%;
+}
+
+.author h2 {
+  margin: 2rem 0;
+}
+
+div.author-profile {
+  display: grid;
+  grid-template-columns: 45px 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+div.author-profile img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+code {
+  text-shadow: none !important;
+}
+
+/** いわゆる扉ページ（最上部にタイトル。下に発行履歴など */
+.title {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  --vs-page--mbox-visibility: hidden;
+}
+
+/** タイトル */
+.title h1 {
+  margin: 0;
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/** 発行履歴 */
+.title .footer {
+  margin-top: auto;
+  text-align: center;
+  font-size: 1em;
+}
+
+.title .footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+/** 第一部、第二部などのページ */
+.part {
+  min-height: 100vh;
+  --vs-page--mbox-visibility: hidden;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.part h1::before {
+  content: '第' counter(vs-counter-part) '部';
+  margin-right: 0.5em;
+}
+

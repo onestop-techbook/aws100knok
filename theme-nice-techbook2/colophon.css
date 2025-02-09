@@ -1,0 +1,46 @@
+/* 奥付 */
+.colophon {
+  --vs-page--mbox-visibility: hidden;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100vh;
+  /* position: relative;
+  float-reference: page;
+  float: bottom;
+  margin-bottom: 0; */
+}
+
+.colophon ul {
+  padding: 0;
+  list-style: none;
+}
+
+.colophon .colophon-title {
+  font-size: 1.5em;
+  font-family: var(--vs--heading-font-family);
+}
+
+.colophon table {
+  margin: 1em 0;
+  width: 100%;
+  font-size: 100%;
+}
+
+.colophon table tr {
+  border: none;
+}
+
+.colophon table tr:first-child td {
+  padding-top: 0.5rem;
+}
+
+.colophon table tr:last-child td {
+  padding-bottom: 0.5rem;
+}
+
+.colophon table td {
+  vertical-align: top;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}

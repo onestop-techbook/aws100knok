@@ -1,0 +1,15 @@
+@import url('./IBMPlexSans.css');
+@import url("./IBMPlexSerif.css");
+@import url('./HaranoAji.css');
+
+@font-face {
+    font-family: 'Cas Mono';
+    src: url('./CascadiaMono.ttf') format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cas Mono';
+    src: url('./CascadiaMonoItalic.ttf') format("truetype");
+    font-style: italic;
+}

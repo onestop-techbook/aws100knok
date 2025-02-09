@@ -1,0 +1,70 @@
+/* see. @vivliostyle/theme-techbook@2.0.0 */
+:root {
+  --vs-theme--anchor-color-body: #3498db;
+  --vs-theme--blockquote-color-bg: #ecf0f1;
+  --vs-theme--blockquote-color-body: #34495e;
+  --vs-theme--inline-code-color-bg: #ecf0f1;
+  --vs-theme--inline-code-color-body: #34495e;
+  --vs-theme--footnote-color-bg-on-screen: #e6f6d7;
+  --vs-theme--crossref-anchor-color-bg-on-screen: rgba(255, 0, 0, 0.3);
+  --vs-theme--crossref-anchor-color-body-on-screen: #e74c3c;
+  --vs-theme--image-resolution-for-figure-image: 300dpi;
+  --vs-theme--page-top-left-content: env(pub-title);
+  --vs-theme--page-top-right-content: env(doc-title);
+  --vs-theme--page-bottom-content: counter(page);
+
+  --vs-prism--block-code-border-radius: 0.3em;
+  --vs-prism--block-code-padding: 1em;
+  --vs-prism--inline-code-border-radius: 0.3em;
+  --vs-prism--inline-code-padding: 0.1em;
+
+  --vs-prism--background: #272822;
+  --vs-prism--color: #f8f8f2;
+}
+
+code,
+pre {
+  background: none;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  hyphens: none;
+}
+
+@media print {
+  code,
+  pre {
+    text-shadow: none;
+    white-space: pre-wrap;
+  }
+}
+
+/* Code blocks */
+pre[class*='language-'] {
+  color: var(--vs-prism--color);
+  padding: var(--vs-prism--block-code-padding);
+  overflow: auto;
+  border-radius: var(--vs-prism--block-code-border-radius);
+}
+
+@media print {
+  pre[class*='language-'] {
+    overflow: unset;
+    line-break: anywhere;
+  }
+}
+
+:not(pre) > code,
+pre[class*='language-'] {
+  background: var(--vs-prism--background);
+
+}
+
+/* Inline code */
+:not(pre) > code {
+  padding: var(--vs-prism--inline-code-padding);
+  border-radius: var(--vs-prism--inline-code-border-radius);
+  white-space: normal;
+}

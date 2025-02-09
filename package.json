@@ -1,0 +1,21 @@
+{
+  "name": "vivliostyle-techbook-starter",
+  "description": "Vivliostyleで技術同人誌を始めよう",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "author": "erukiti <erukiti+github@gmail.com>",
+  "scripts": {
+    "build": "vivliostyle build -o screen.pdf",
+    "build:print": "vivliostyle build -o print.pdf",
+    "build:press-ready": "vivliostyle build -o print.pdf --press-ready --preflight-option gray-scale",
+    "preview": "vivliostyle preview"
+  },
+  "dependencies": {
+    "@vivliostyle/cli": "^8.17.1",
+    "@vivliostyle/vfm": "^2.2.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
