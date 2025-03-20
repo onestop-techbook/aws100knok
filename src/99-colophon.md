@@ -7,10 +7,10 @@ class: colophon
 </div>
 
 <div>
-    <div class="colophon-title">ワンストップデータマネジメント</div>
+    <div class="colophon-title">ぼくのAWSの推しポイント100本ノック</div>
     <table>
         <tr>
-            <td colspan="3">2025年6月1日 初版発行 第17回 技術書典</td>
+            <td colspan="3">2025年6月1日 第18回 技術書典　初版発行 </td>
         </tr>
         <tr>
             <td>　</td>
@@ -20,7 +20,7 @@ class: colophon
         <tr>
             <td>　</td>
             <td>企画・編集</td>
-            <td>おやかた</td>
+            <td>おやかた@oyakata2438</td>
         </tr>
         <tr>
             <td>　</td>

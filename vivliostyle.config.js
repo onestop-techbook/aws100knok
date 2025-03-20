@@ -24,16 +24,10 @@ const def = {
     // 目次
     { rel: "contents" },
 
-    // 第一部 とにかく楽をする
+    // 第一部 書き方の例＋並べる前はここへ。
     "part-easy.md",
 	"chap-introduction.md",
 
-
-    // 第二部 Vivliostyleについて
-    "part-tips.md",
-    "chap-device.md",
-	"chap-datacategory.md",
-	"chap-placeholder.md",
 
     // 後書き
     "90-postscript.md",
