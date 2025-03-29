@@ -1,5 +1,5 @@
 ---
-class: chapter*
+class: chapter
 ---
 
 # 閑散としたシステムほど推したい「Lambda」
