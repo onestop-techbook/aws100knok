@@ -4,13 +4,11 @@ class: chapter
 
 # AWS テクニカルサポートのよりよい活用方法とちょっと逆説的なアプローチ
 
-<div class="flush-right">
-@kazzpapa3
-</div>
+<div class="flush-right">市野 和明 @kazzpapa3</div>
 
 本章の筆者は、AWS パートナー企業でテクニカルサポートエンジニアとして従事しています。
 
-外部登壇の際には AWS CLI が好きだと言っていますが、エンドカスタマー（利用者）と AWS の中間地点で従事する職務柄、AWS テクニカルサポートは素晴らしいサービスだと感じています<span class="footnote">AWS パートナーから再販モデルで AWS アカウントを利用者へ提供する場合、パートナー企業内でサポート部門を設け、利用者からの問い合わせを受け付ける体制を持つことが必要となっています。</span>。
+外部登壇の際には AWS CLI が好きだと言っていますが、エンドカスタマー（利用者）と AWS の中間地点で従事する職務柄、AWS テクニカルサポートは素晴らしいサービスだと感じています。<span class="footnote">AWS パートナーから再販モデルで AWS アカウントを利用者へ提供する場合、パートナー企業内でサポート部門を設け、利用者からの問い合わせを受け付ける体制を持つことが必要となっています。</span>
 
 スタートアップからエンタープライズまで、日本で広く AWS が利用されているその信頼性の背景の大きな要因になっているのではないかと考えています。
 
@@ -175,13 +173,12 @@ EC2 インスタンスの意図しない再起動が発生し、発生時刻帯�
 
 ### この発想はどこから来て、どう捉えればいいのか
 
-> **Design for failure**
->
 > “Everything fails all the time.” – Werner Vogels
 
-<figure><figcaption>出典：<a href="https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/design-for-failure.html"> Design for failure ( https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/design-for-failure.html ) </a>より抜粋</figcaption></figure>
+<figure><figcaption>出典：<a href="https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Designing_for_failure_Architecting_resilient_systems_on_AWS_ARC335-R1.pdf"> Designing for failure: Architecting
+resilient systems on AWS ( https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Designing_for_failure_Architecting_resilient_systems_on_AWS_ARC335-R1.pdf ) </a>より抜粋</figcaption></figure>
 
-上記は "Design for failure（故障を前提とした設計）" を推奨しているという AWS ホワイトペーパーからの抜粋です。
+上記は "Designing for failure（故障を前提とした設計）" を推奨しているという AWS の公開資料からの抜粋です。
 そもそも AWS ではインフラ障害を限りなく 0 に近づける努力はしているものの、障害の発生を完全に防ぐことは困難であると認識しています。
 この考えを根底にして、事象発生時には問題のあるリソースを廃棄して新たなリソースを起動させることで、システムとして存続するような設計をすることをベストプラクティスとしている基本的な設計思想があります。
 
@@ -197,7 +194,7 @@ EC2 インスタンスの意図しない再起動が発生し、発生時刻帯�
     <img src="images/kazzpapa3.jpg">
     <div>
         <div>
-            <b><a href="https://x.com/kazzpapa3">@kazzpapa3</a></b>
+            <b>市野 和明</b> <a href="https://x.com/kazzpapa3">@kazzpapa3</a>
         </div>
         <div>
             所属：<a href="https://jawsug-kobe.connpass.com/">JAWS-UG 神戸</a>

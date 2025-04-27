@@ -29,7 +29,8 @@ const def = {
 	  "chap-introduction.md",
 	  "chap-sour23-lambda.md",
 	  "chap-kazzpapa3-aws-technical-support.md",
-    "chap-yuj1osm-team.md",
+      "chap-yuj1osm-team.md",
+	  "chap-kazzpapa3-aws-cloudtrail.md",
 
     // 後書き
     "90-postscript.md",
