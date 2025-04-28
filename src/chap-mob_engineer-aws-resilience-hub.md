@@ -2,11 +2,11 @@
 class: chapter
 ---
 
-<div class="flush-right">
-モブエンジニア
-</div>
-
 # 初心者でもサクッと試せるAWS Resilience Hubのすゝめ
+
+<div class="flush-right">
+奥田 雅基 @mob_engineer
+</div>
 
 ## 前置き
 
@@ -74,8 +74,8 @@ Skill BuilderやユーザーガイドにもAWS Resilience Hubについて分か�
     <img src="images/mobengineer.png">
     <div>
         <div>
-            <b>モブエンジニア </b>
-            <a href="https://x.com/mob_engineer">X@mob_engineer</a>
+            <b>奥田 雅基</b>
+            <a href="https://x.com/mob_engineer">@mob_engineer</a>
         </div>
         <div>
             サークル名：JAWS-UG 彩の国埼玉支部
