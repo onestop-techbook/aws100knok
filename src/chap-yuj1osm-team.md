@@ -31,6 +31,8 @@ TEAMは、AWS IAM Identity Centerと連携し、一時的に高権限のアク�
 
 ![TEAMダッシュボード](images/chap-yuj1osm-team/team-dashboard.png)
 
+![TEAMアーキテクチャ](images/chap-yuj1osm-team/team-architecture.png)
+
 ## TEAMの推しポイント
 
 ### 常に「最小権限の原則」を維持できる
