@@ -32,6 +32,7 @@ const def = {
     "chap-yuj1osm-team.md",
 	"chap-atsumi-community.md",
 	"chap-kazzpapa3-aws-cloudtrail.md",
+	"chap-whitebird_sp-amazon-vpc.md",
 
     // 後書き
     "90-postscript.md",
