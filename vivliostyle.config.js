@@ -26,10 +26,11 @@ const def = {
 
     // 第一部 書き方の例＋並べる前はここへ。
     "part-easy.md",
-	  "chap-introduction.md",
-	  "chap-sour23-lambda.md",
-	  "chap-kazzpapa3-aws-technical-support.md",
+	"chap-introduction.md",
+	"chap-sour23-lambda.md",
+	"chap-kazzpapa3-aws-technical-support.md",
     "chap-yuj1osm-team.md",
+	"chap-atsumi-community.md",
 
     // 後書き
     "90-postscript.md",
