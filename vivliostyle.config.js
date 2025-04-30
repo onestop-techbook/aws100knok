@@ -39,6 +39,7 @@ const def = {
     "chap-otsuka-certification.md",
     "chap-otsuka-cloudshell.md",
     "chap-ikngm-cdk.md",
+    "chap-mkdev10-amplify.md",
 
     // 後書き
     "90-postscript.md",
