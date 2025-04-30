@@ -119,5 +119,5 @@ https://aws.amazon.com/jp/blogs/psa/2024-japan-aws-all-certifications-engineers/
     </div>
 </div>
 <p style="margin-top: 0.5em; margin-bottom: 2em;">
-縁あってJAWS-UG茨城支部運営に携わっています。2024 Japan AWS All Cetifications Engineer。
+縁あってJAWS-UG茨城支部運営に携わっています。2024 Japan AWS All Certifications Engineer。
 </p>
