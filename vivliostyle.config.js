@@ -36,6 +36,7 @@ const def = {
     "chap-mob_engineer-aws-resilience-hub.md",
     "chap-iwamot-hiring-process.md",
     "chap-kazzpapa3-aws-cli.md",
+    "chap-otsuka-certification.md",
 
     // 後書き
     "90-postscript.md",
