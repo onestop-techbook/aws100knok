@@ -37,10 +37,7 @@ const def = {
     "chap-iwamot-hiring-process.md",
     "chap-kazzpapa3-aws-cli.md",
     "chap-otsuka-certification.md",
-<<<<<<< HEAD
     "chap-otsuka-cloudshell.md",
-=======
->>>>>>> 3931495b87b84609ef47d393370f8033356299d8
 
     // 後書き
     "90-postscript.md",
