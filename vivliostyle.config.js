@@ -40,6 +40,7 @@ const def = {
     "chap-otsuka-cloudshell.md",
     "chap-ikngm-cdk.md",
     "chap-mkdev10-amplify.md",
+    "chap-mob_engineer-jaws-community-life.md",
 
     // 後書き
     "90-postscript.md",
