@@ -26,15 +26,19 @@ const def = {
 
     // 第一部 書き方の例＋並べる前はここへ。
     "part-easy.md",
-	"chap-introduction.md",
-	"chap-sour23-lambda.md",
-	"chap-kazzpapa3-aws-technical-support.md",
+    "chap-introduction.md",
+    "chap-sour23-lambda.md",
+    "chap-kazzpapa3-aws-technical-support.md",
     "chap-yuj1osm-team.md",
-	"chap-atsumi-community.md",
-	"chap-kazzpapa3-aws-cloudtrail.md",
-	"chap-whitebird_sp-amazon-vpc.md",
-	"chap-mob_engineer-aws-resilience-hub.md",
+    "chap-atsumi-community.md",
+    "chap-kazzpapa3-aws-cloudtrail.md",
+    "chap-whitebird_sp-amazon-vpc.md",
+    "chap-mob_engineer-aws-resilience-hub.md",
     "chap-iwamot-hiring-process.md",
+    "chap-kazzpapa3-aws-cli.md",
+    "chap-otsuka-certification.md",
+    "chap-otsuka-cloudshell.md",
+    "chap-ikngm-cdk.md",
 
     // 後書き
     "90-postscript.md",
