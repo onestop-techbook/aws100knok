@@ -41,7 +41,7 @@ const def = {
     "chap-ikngm-cdk.md",
     "chap-mkdev10-amplify.md",
     "chap-mob_engineer-jaws-community-life.md",
-
+    "chap-kkimura-ug-kyushu.md",
     // 後書き
     "90-postscript.md",
     "98-authors.md",
