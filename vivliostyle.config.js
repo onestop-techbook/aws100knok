@@ -41,6 +41,7 @@ const def = {
     "chap-ikngm-cdk.md",
     "chap-mkdev10-amplify.md",
     "chap-mob_engineer-jaws-community-life.md",
+	"chap-hiyokoinfraengineer.md",
 
     // 後書き
     "90-postscript.md",
