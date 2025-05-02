@@ -24,13 +24,13 @@ AWSマネージメントコンソール(マネコン)はGUI操作で簡単にか
 
 
 ↓IaCジェネレータ機能を選択する</br>
-<img src="images/chap-naosan/iac_01_cfnmenu.png">
+<img src="images/chap-naosan-devtools/iac_01_cfnmenu.png">
 
 ↓テンプレート作成を選択する</br>
-<img src="images/chap-naosan/iac_04_CreateTemplate.png">
+<img src="images/chap-naosan-devtools/iac_04_CreateTemplate.png">
 
 ↓スキャン結果からリソースを選択してテンプレートを作る</br>
-<img src="images/chap-naosan/iac_06_CreateTemplate3.png">
+<img src="images/chap-naosan-devtools/iac_06_CreateTemplate3.png">
 
 
 
@@ -40,7 +40,7 @@ AWSマネージメントコンソール(マネコン)はGUI操作で簡単にか
 スキャン時間はおよそ1,000リソースごとに約10分ほどなので、特定のリソースに絞ってスキャンすることで待ち時間の削減にもなります。</br>
 
 ↓スキャン方法を選択</br>
-<img src="images/chap-naosan/iac_02_CfnScanMenu.png">
+<img src="images/chap-naosan-devtools/iac_02_CfnScanMenu.png">
 
 
 ## 推しポイント３：スキャン結果が見やすい
@@ -48,14 +48,14 @@ AWSマネージメントコンソール(マネコン)はGUI操作で簡単にか
 そのため、既存アカウントのリソース構成比率が確認でき、目視で既存環境のリソース定義を確認する場合と比較してリソースの見逃しを防ぐことができます。</br>
 
 ↓スキャン結果</br>
-<img src="images/chap-naosan/iac_03_ScanResult.png">
+<img src="images/chap-naosan-devtools/iac_03_ScanResult.png">
 
 ## 推しポイント４：CDKアプリケーションへの変換手順も紹介されていてやさしい
 IaCジェネレーターによって入手できるIaCコードはCloudFormationテンプレートですが、プロジェクトでCDKを使う方針の場合でも手順が示されていて安心です。</br>
 CloudFormationテンプレートから変換されるCDKアプリケーションのコードはL1コンストラクトのため、CDKの抽象化などの少ないコードで管理できるメリットを享受するには手動でのL2コンストラクトへの変換が必要ですが、既存環境のリソースを自動でCDKのL1コンストラクトまで出力できれば、0からCDKコードを作るよりも定義漏れなどの心配がすくなく効率的な場合もあるのではないかと思います。</br>
 
 ↓CDKアプリケーション変換手順</br>
-<img src="images/chap-naosan/iac_09_download02.png">
+<img src="images/chap-naosan-devtools/iac_09_download02.png">
 
 ## さいごに
 いままでマネコン開発をしていた人に対しても救いのあるツールがあるというのは素晴らしいと思います。</br>

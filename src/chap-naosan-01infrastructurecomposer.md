@@ -23,7 +23,7 @@ CloudFormationテンプレート内のリソース定義が"カード"と呼ば�
 
 
 
-<img src="images/chap-naosan/ISC_01_toha.png">
+<img src="images/chap-naosan-devtools/ISC_01_toha.png">
 
 ## 推しポイント１：既存のCloudFormationテンプレートを構成図のように視覚化できる
 
@@ -36,7 +36,7 @@ CloudFormationテンプレート内のリソース定義が"カード"と呼ば�
 - 表示されたリソースのカードを選択することで、そのリソースのプロパティ定義もリソースごとに確認することが可能です
 
 
-<img src="images/chap-naosan/ISC_02_oshi_01.png">
+<img src="images/chap-naosan-devtools/ISC_02_oshi_01.png">
 
 
 ## 推しポイント２：穴埋め形式でリソースのプロパティ定義が可能
@@ -49,7 +49,7 @@ CloudFormationテンプレート内のリソース定義が"カード"と呼ば�
 - 拡張コンポーネントと呼ばれるリソースの種類の定義のみに限りますが、穴埋め方式でプロパティの定義が可能です
 - 定義すべきプロパティの種類が提示されているため、プロパティ定義が非常に楽になります。
 
-<img src="images/chap-naosan/ISC_03_oshi_02.png">
+<img src="images/chap-naosan-devtools/ISC_03_oshi_02.png">
 
 ## 推しポイント３：StepFunctions Workflow Studioがローカル(VSCode上)でも動かせる
 
@@ -60,7 +60,7 @@ CloudFormationテンプレート内のリソース定義が"カード"と呼ば�
 #### <あるとき>
 - StepFunctions Workflow Studioを使用してGUI操作でステートマシンが定義できるため、定義が非常に楽になります。
 
-<img src="images/chap-naosan/ISC_04_oshi_03.png">
+<img src="images/chap-naosan-devtools/ISC_04_oshi_03.png">
 
 ## そのほかの推しポイント
 
@@ -75,7 +75,7 @@ CloudFormationテンプレート内のリソース定義が"カード"と呼ば�
 - 管理するリソースが多くなったり、複数の機能の分類を含むテンプレートの場合、どのリソースがどの分類で管理されるかが可視化できた方が管理しやすい場合があります。
 - グループ化すると構成図上でグループが表示され、リソースの管理が容易になります
 
-<img src="images/chap-naosan/ISC_05_oshi_04.png">
+<img src="images/chap-naosan-devtools/ISC_05_oshi_04.png">
 
 
 
