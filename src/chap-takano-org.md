@@ -25,9 +25,9 @@ AWS Organizationsはどう管理コストを下げてくれるか。様々な機
 
 AWS organizationsは、『OUs(organization units)』の単位にアカウントを集約し、まとめて権限許可設定、設定投入を行えます。
 
-<img src="images/chap-takano-org/Orgnizations.png" width="60%">
+![organizationsのイメージ](images/chap-takano-org/Orgnizations.png){width=60%}
 
-こちらの図のように、本番用、開発用など管理単位でOUを作成し、OUに設定を適用することで、中にあるアカウントに全て設定が適用されます。
+この図のように、本番用、開発用など管理単位でOUを作成し、OUに設定を適用することで、中にあるアカウントに全て設定が適用されます。
 
 OUsは5つまでの階層構造にすることができ、本番用の中でも権限が厳しいもの、開発用でも厳しいもの、など柔軟に管理することが可能です。
 
