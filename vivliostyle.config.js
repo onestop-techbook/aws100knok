@@ -45,6 +45,7 @@ const def = {
     "chap-takano-org.md",
 	"chap-naosan-01infrastructurecomposer.md",
 	"chap-naosan-02iacgenerator.md",
+	"chap-otsukit-cloudformation.md",
 
     // 後書き
     "90-postscript.md",
