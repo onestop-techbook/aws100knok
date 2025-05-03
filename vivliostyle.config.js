@@ -50,6 +50,7 @@ const def = {
 	"chap-naosan-04communitybuilder.md",
 	"chap-naosan-05jawsnagoya.md",
 	"chap-naosan-06jawsnasa.md",
+	"chap-shfk2-fis.md",
 
     // 後書き
     "90-postscript.md",
