@@ -42,6 +42,7 @@ const def = {
     "chap-mkdev10-amplify.md",
     "chap-mob_engineer-jaws-community-life.md",
 	"chap-hiyokoinfraengineer.md",
+    "chap-takano-org.md",
 	"chap-naosan-01infrastructurecomposer.md",
 	"chap-naosan-02iacgenerator.md",
 
