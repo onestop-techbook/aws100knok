@@ -46,6 +46,10 @@ const def = {
 	"chap-naosan-01infrastructurecomposer.md",
 	"chap-naosan-02iacgenerator.md",
 	"chap-otsukit-cloudformation.md",
+	"chap-naosan-03awsexams copy.md",
+	"chap-naosan-04communitybuilder.md",
+	"chap-naosan-05jawsnagoya.md",
+	"chap-naosan-06jawsnasa.md",
 
     // 後書き
     "90-postscript.md",
