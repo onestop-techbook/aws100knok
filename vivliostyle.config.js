@@ -41,11 +41,12 @@ const def = {
     "chap-ikngm-cdk.md",
     "chap-mkdev10-amplify.md",
     "chap-mob_engineer-jaws-community-life.md",
-	"chap-hiyokoinfraengineer.md",
+    "chap-hiyokoinfraengineer.md",
     "chap-takano-org.md",
-	"chap-naosan-01infrastructurecomposer.md",
-	"chap-naosan-02iacgenerator.md",
-	"chap-otsukit-cloudformation.md",
+    "chap-naosan-01infrastructurecomposer.md",
+    "chap-naosan-02iacgenerator.md",
+    "chap-otsukit-cloudformation.md",
+    "chap-akira-epic.md",
 
     // 後書き
     "90-postscript.md",
