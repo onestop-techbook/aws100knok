@@ -117,11 +117,11 @@ CloudFormationテンプレートを構成図のように可視化できて、プ
 ---
 
 <div class="author-profile">
-    <img src="images/naosan.jpg">
+    <img src="images/naosan.jpg" width="60%">
     <div>
         <div>
             <b>山本 直弥 ( Nao )</b></br> 
-            X：<a href="https://x.com/nananaonana7">Nao</a></br> 
+            X：<a href="https://x.com/nananaonana7">https://x.com/nananaonana7</a></br> 
             Qiita：<a href="https://qiita.com/Nana_777">https://qiita.com/Nana_777</a></br> 
             lit.link：<a href="https://qiita.com/Nana_777">https://lit.link/nao777nanaarchitect</a></br> 
             所属：<a href="https://jawsug-nagoya.connpass.com/">JAWS-UG 名古屋支部</a>
