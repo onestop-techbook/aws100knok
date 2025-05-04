@@ -52,6 +52,13 @@ const def = {
 	"chap-naosan-05jawsnagoya.md",
 	"chap-naosan-06jawsnasa.md",
 	"chap-shfk2-fis.md",
+	"chap-naosan-07awssummit.md",
+	"chap-naosan-08wellarchitectedframework.md",
+	"chap-naosan-09awsblog.md",
+	"chap-naosan-10awsblackbelt.md",
+	"chap-naosan-11awsdocument.md",
+	"chap-naosan-12handson.md",
+	"chap-naosan-13mitsumori.md",
 
     // 後書き
     "90-postscript.md",
