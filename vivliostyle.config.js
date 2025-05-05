@@ -71,6 +71,16 @@ const def = {
 	"chap-yakumo-neptune.md",
     "chap-terusaku-ArchitectureCenter.md",
 	"chap-amixedcolor-aws-sum.md",
+	"chap-mob_engineer-01soa.md",
+	"chap-mob_engineer-02aif.md",
+	"chap-mob_engineer-03mls.md",
+	"chap-mob_engineer-04mla.md",
+	"chap-mob_engineer-05scs.md",
+	"chap-mob_engineer-06ans.md",
+	"chap-mob_engineer-08dop.md",
+	"chap-mob_engineer-07sap.md",
+	"chap-mob_engineer-09dea.md",
+	"chap-mob_engineer-10dva.md",
 
     // 後書き
     "90-postscript.md",
