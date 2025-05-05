@@ -65,7 +65,8 @@ const def = {
 	"chap-naosan-17browserextends.md",
 	"chap-naosan-18drawio.md",
 	"chap-naosan-19icons.md",
-	"chap-naosan-20connpass.md",
+  "chap-naosan-20connpass.md",
+  "chap-fossamagna-amplify-hosting.md",
 
     // 後書き
     "90-postscript.md",
