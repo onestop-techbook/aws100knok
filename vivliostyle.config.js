@@ -82,6 +82,7 @@ const def = {
 	"chap-mob_engineer-07sap.md",
 	"chap-mob_engineer-09dea.md",
 	"chap-mob_engineer-10dva.md",
+      "chap-fossamagna-amplify-hosting.md",
 
     // 後書き
     "90-postscript.md",
