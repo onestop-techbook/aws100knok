@@ -69,6 +69,7 @@ const def = {
   "chap-takano-game",
 	"chap-oyakata-greetingcard.md",
 	"chap-yakumo-neptune.md",
+    "chap-terusaku-ArchitectureCenter.md",
 
     // 後書き
     "90-postscript.md",
