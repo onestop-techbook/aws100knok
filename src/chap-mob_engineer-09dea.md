@@ -8,6 +8,8 @@ class: chapter
 奥田 雅基 @mob_engineer
 </div>
 
+<img src="images/chap-mob_engineer-certificates/aws-certified-data-engineer-associate.png">
+
 ## 前置き
 
 **AWS Certified DevOps Engineer - Professional**から続いて第9弾となります。

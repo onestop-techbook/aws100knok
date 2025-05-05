@@ -8,6 +8,8 @@ class: chapter
 奥田 雅基 @mob_engineer
 </div>
 
+<img src="images/chap-mob_engineer-certificates/aws-certified-ai-practitioner.png">
+
 ## 前置き
 
 **AWS Certified Solutions Architect - Associate**から続いて第2弾となります。

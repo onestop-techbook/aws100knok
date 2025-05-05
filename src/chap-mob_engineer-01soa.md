@@ -8,6 +8,8 @@ class: chapter
 奥田 雅基 @mob_engineer
 </div>
 
+<img src="images/chap-mob_engineer-certificates/aws-certified-sysops-administrator-associate.png">
+
 ## 前置き
 
 私自身、今年4月にAWS資格全冠（12種類）を達成しました。

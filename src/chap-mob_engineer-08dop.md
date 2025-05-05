@@ -8,6 +8,8 @@ class: chapter
 奥田 雅基 @mob_engineer
 </div>
 
+<img src="images/chap-mob_engineer-certificates/aws-certified-devops-engineer-professional.png">
+
 ## 前置き
 
 **AWS Certified Solutions Architect - Professional**から続いて第8弾となります。

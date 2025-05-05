@@ -8,6 +8,8 @@ class: chapter
 奥田 雅基 @mob_engineer
 </div>
 
+<img src="images/chap-mob_engineer-certificates/aws-certified-advanced-networking-specialty.png">
+
 ## 前置き
 
 **AWS Certified Security - Specialty**から続いて第6弾となります。

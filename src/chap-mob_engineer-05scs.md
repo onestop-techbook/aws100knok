@@ -8,6 +8,8 @@ class: chapter
 奥田 雅基 @mob_engineer
 </div>
 
+<img src="images/chap-mob_engineer-certificates/aws-certified-security-specialty.png">
+
 ## 前置き
 
 **AWS Certified Machine Learning Engineer - Associate**から続いて第5弾となります。

@@ -8,6 +8,8 @@ class: chapter
 奥田 雅基 @mob_engineer
 </div>
 
+<img src="images/chap-mob_engineer-certificates/aws-certified-developer-associate.png">
+
 ## 前置き
 
 **AWS Certified Data Engineer - Associate**から続いて第10弾となります。
