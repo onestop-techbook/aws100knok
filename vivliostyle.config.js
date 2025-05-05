@@ -70,6 +70,7 @@ const def = {
 	"chap-oyakata-greetingcard.md",
 	"chap-yakumo-neptune.md",
     "chap-terusaku-ArchitectureCenter.md",
+	"chap-amixedcolor-aws-sum.md",
 
     // 後書き
     "90-postscript.md",
