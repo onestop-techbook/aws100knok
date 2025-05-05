@@ -2,12 +2,32 @@
 class: chapter
 ---
 
-# 
+# セキュリティを担保した知識獲得　～～AWS Certified Security - Specialty～～
 
 <div class="flush-right">
 奥田 雅基 @mob_engineer
 </div>
 
+## 前置き
+
+**AWS Certified Machine Learning Engineer - Associate**から続いて第3弾となります。
+今回はAWS専門資格の一つである**AWS Certified Security - Specialty**について執筆したいと思います。
+
+## どういった資格なのか？
+
+公式サイトには以下の通り示されています。
+
+>AWS クラウドにおけるセキュリティソリューションの作成と実装に関する知識を検証します。この認定では、専門的なデータ分類と AWS のデータ保護メカニズム、データ暗号化方法とそれらを実装するための AWS メカニズム、および安全なインターネットプロトコルとそれらを実装するための AWS メカニズムについての理解も検証されます。
+
+<figure><figcaption>出典：<a href="https://aws.amazon.com/jp/certification/certified-security-specialty/"> AWS Certified Security - Specialty ( https://aws.amazon.com/jp/certification/certified-security-specialty/ )</a>より抜粋</figcaption></figure>
+
+**最小権限を維持してIAMポリシーの実装**や**Security Hubなどのセキュリティ対策に役立つサービスを組み合わせて、安全なアプリケーションを提供する**に役立つ知識を身に着けることができます。そのうえで、
+
+## 試験勉強について
+
+## 試験を通じて変わったこと
+
+## まとめ
 
 ### 著者紹介
 
