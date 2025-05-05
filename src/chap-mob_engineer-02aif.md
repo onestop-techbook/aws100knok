@@ -2,7 +2,7 @@
 class: chapter
 ---
 
-# AWS AIサービスを網羅的に理解しよう　～～AWS Certified AI Practitioner～～
+# AWS Certified AI Practitioner　～～AWSで提供されているAIサービスを正しく利用するために～～
 
 <div class="flush-right">
 奥田 雅基 @mob_engineer
@@ -23,10 +23,6 @@ class: chapter
 <figure><figcaption>出典：<a href="https://aws.amazon.com/jp/certification/certified-ai-practitioner/"> AWS Certified AI Practitioner ( https://aws.amazon.com/jp/certification/certified-ai-practitioner/ )</a>より抜粋</figcaption></figure>
 
 2024年にリリースされた試験のため、試験情報に関してあまり出回っていなかったですが**AWSがAIサービスをどのようにユーザに利用してもらいたいか**を聞いている印象を持ちました。
-
-## 試験勉強について
-
-当初は「AWS Certified Solutions Architect - Associate」と同様、問題集による勉強を行っていました。しかし、1回目の受験では不合格となってしまいました。その時、**サービス全体に対する理解不足**を痛感したため**AI/MLサービスに関する公式ドキュメント**を読み直すことに比重を置きました。結果として、合格することはできましたが**AWS公式から公開されているホワイトペーパー**を読み込んでおいた方が**よりAWSがAIサービスに対してどのように考えているのか**をキャッチアップすることができると思いました。
 
 ## 試験を通じて変わったこと
 

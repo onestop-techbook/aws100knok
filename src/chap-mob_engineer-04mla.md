@@ -2,7 +2,7 @@
 class: chapter
 ---
 
-# ML/AIサービスの効率的な運用知識　～～AWS Certified Machine Learning Engineer - Associate～～
+# AWS Certified Machine Learning Engineer - Associate　～～AM/MLパイプラインを実装するために～～
 
 <div class="flush-right">
 奥田 雅基 @mob_engineer
@@ -10,7 +10,7 @@ class: chapter
 
 ## 前置き
 
-**AWS Certified Machine Learning - Specialty**から続いて第3弾となります。
+**AWS Certified Machine Learning - Specialty**から続いて第4弾となります。
 今回はAWS専門資格の一つである**AWS Certified Machine Learning Engineer - Associate**について執筆したいと思います。
 
 ## どういった資格なのか？
@@ -22,11 +22,7 @@ class: chapter
 
 <figure><figcaption>出典：<a href="https://aws.amazon.com/jp/certification/certified-machine-learning-engineer-associate/"> AWS Certified Machine Learning Engineer - Associate ( https://aws.amazon.com/jp/certification/certified-machine-learning-engineer-associate/ )</a>より抜粋</figcaption></figure>
 
-第2弾で執筆した**AWS Certified AI Practitioner**と同じタイミングで登場した新試験となります。そのため、私が受験した当時は**学習リソースが少なく対策が難しい**といった状況でした。そのうえで、試験勉強を行うことで**AWSサービスでML/AIサービスをうまく運用していくために考慮しなくてはいけないポイントは何か**をキャッチアップすることができると思いました。
-
-## 試験勉強について
-
-出題範囲としてAIF・MLSと重複するところが多数あります。そのため、並行して一気に学習を行ったほうが**AWSのML/AIサービスの全体像の理解**は進むと思います。そのうえで、AWS Glueのパイプライン運用について深く求められるため、**ホワイトペーパーやハンズオンを通じてCI/CDに関する理解を深めておく**ことをおススメします。
+第2弾で執筆した**AWS Certified AI Practitioner**と同じタイミングで登場した新試験となります。そのため、私が受験した当時は**学習リソースが少なく対策が難しい**といった状況でした。そのうえで、試験勉強を行うことで**AWSサービスでAI/MLサービスをうまく運用していくために考慮しなくてはいけないポイントは何か**をキャッチアップすることができると思いました。
 
 ## 試験を通じて変わったこと
 

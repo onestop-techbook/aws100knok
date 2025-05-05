@@ -2,7 +2,7 @@
 class: chapter
 ---
 
-# AWSで機械学習を実現するための知識　～～AWS Certified Machine Learning - Specialty～～
+# AWS Certified Machine Learning - Specialty　～～機械学習の専門家になるための登竜門～～
 
 <div class="flush-right">
 奥田 雅基 @mob_engineer
@@ -22,10 +22,6 @@ class: chapter
 <figure><figcaption>出典：<a href="https://aws.amazon.com/jp/certification/certified-machine-learning-specialty/"> AWS Certified Machine Learning - Specialty ( https://aws.amazon.com/jp/certification/certified-machine-learning-specialty/ )</a>より抜粋</figcaption></figure>
 
 第2弾で執筆した**AWS Certified AI Practitioner**より古くからある試験のため学習リソースは揃っています。ただし、**線形学習や回帰などの機械学習に関する専門知識**が問われるため、G検定等で知識をキャッチアップしてから臨んだほうが良いかと思います。
-
-## 試験勉強について
-
-試験勉強に関しては**MLサービスであるSageMakerに関するサービス理解**と**機械学習に関する基礎知識**（正則化、過学習への対策など）をキャッチアップしておりました。幸い、G検定で機械学習に関する基礎知識はキャッチアップしていたため、学習に対して苦労はそこまでありませんでした。
 
 ## 試験を通じて変わったこと
 

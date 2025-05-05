@@ -2,7 +2,7 @@
 class: chapter
 ---
 
-# AWSサービス運用の登竜門　～～AWS Certified Solutions Architect - Associate～～
+# AWS Certified Solutions Architect - Associate　～～AWSサービス運用の登竜門～～
 
 <div class="flush-right">
 奥田 雅基 @mob_engineer
@@ -11,7 +11,8 @@ class: chapter
 ## 前置き
 
 私自身、今年4月にAWS資格全冠（12種類）を達成しました。
-そのうえで、JAWSに積極的に参加し始めてから取得した9種についてまとめていきたいと思います。
+そのうえで、JAWSに積極的に参加し始めてから取得した10種についてまとめていきたいと思います。
+※順番については私が資格取得した順番とさせていただきます。
 
 最初は**AWS Certified Solutions Architect - Associate**について執筆したいと思います。
 
@@ -24,11 +25,6 @@ class: chapter
 <figure><figcaption>出典：<a href="https://aws.amazon.com/jp/certification/certified-solutions-architect-associate/"> AWS Certified Solutions Architect - Associate ( https://aws.amazon.com/jp/certification/certified-solutions-architect-associate/ )</a>より抜粋</figcaption></figure>
 
 私が試験勉強を通じて感じた所感ですが**EC2インスタンス異常終了時のリカバリ対応やCloudWatchを用いた影響分析**に関するスキルを求められていた印象でした。
-
-## 試験勉強について
-
-受験当時の勉強法として問題集による演習を約1か月ほど行っておりました。
-ただし、問題集による勉強の場合**インプット中心**となるため、ハンズオンなどの**手を動かすこと**を行ってみることを推奨します。
 
 ## 試験を通じて変わったこと
 
