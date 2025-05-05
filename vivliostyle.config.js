@@ -47,7 +47,7 @@ const def = {
 	"chap-naosan-01infrastructurecomposer.md",
 	"chap-naosan-02iacgenerator.md",
 	"chap-otsukit-cloudformation.md",
-	"chap-naosan-03awsexams copy.md",
+	"chap-naosan-03awsexams.md",
 	"chap-naosan-04communitybuilder.md",
 	"chap-naosan-05jawsnagoya.md",
 	"chap-naosan-06jawsnasa.md",
@@ -59,6 +59,13 @@ const def = {
 	"chap-naosan-11awsdocument.md",
 	"chap-naosan-12handson.md",
 	"chap-naosan-13mitsumori.md",
+	"chap-naosan-14amazonqvscode.md",
+	"chap-naosan-15gluestudio.md",
+	"chap-naosan-16stepfunctions.md",
+	"chap-naosan-17browserextends.md",
+	"chap-naosan-18drawio.md",
+	"chap-naosan-19icons.md",
+	"chap-naosan-20connpass.md",
 
     // 後書き
     "90-postscript.md",
