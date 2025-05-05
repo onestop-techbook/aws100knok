@@ -18,6 +18,7 @@ class: chapter
 公式サイトには以下の通り示されています。
 
 >AWS Certified AI Practitioner は、人工知能 (AI)、機械学習 (ML)、生成 AI の概念とユースケースに関する需要の高い知識を実証します。競争力を高め、キャリアアップと収入拡大を目指しましょう。
+>この試験の理想的な候補者は、AWS での AI/ML テクノロジーに精通しており、AWS で AI/ML ソリューションを利用しているが、必ずしもそのようなソリューションを構築しているわけではない方です。
 
 <figure><figcaption>出典：<a href="https://aws.amazon.com/jp/certification/certified-ai-practitioner/"> AWS Certified AI Practitioner ( https://aws.amazon.com/jp/certification/certified-ai-practitioner/ )</a>より抜粋</figcaption></figure>
 

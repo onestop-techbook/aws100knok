@@ -2,7 +2,7 @@
 class: chapter
 ---
 
-# ML/AIサービスの効率的な運用知識　～～AWS Certified Machine Learning - Specialty～～
+# ML/AIサービスの効率的な運用知識　～～AWS Certified Machine Learning Engineer - Associate～～
 
 <div class="flush-right">
 奥田 雅基 @mob_engineer
@@ -10,30 +10,31 @@ class: chapter
 
 ## 前置き
 
-**AWS Certified AI Practitioner**から続いて第3弾となります。
-今回はAWS専門資格の一つである**AWS Certified Machine Learning - Specialty**について執筆したいと思います。
+**AWS Certified Machine Learning - Specialty**から続いて第3弾となります。
+今回はAWS専門資格の一つである**AWS Certified Machine Learning Engineer - Associate**について執筆したいと思います。
 
 ## どういった資格なのか？
 
 公式サイトには以下の通り示されています。
 
->この資格は、組織がクラウドイニシアチブを実装するための重要なスキルを持つ人材を特定して育成するのに役立ちます。AWS Certified Machine Learning - Specialty を取得すると、AWS で機械学習 (ML) モデルの構築、トレーニング、チューニングおよびデプロイに関する専門知識を認定します。
+>AWS Certified Machine Learning Engineer - Associate は、本番環境に ML を実装して運用可能にする技術的能力を実証するものです。キャリアプロファイルと信頼性を向上させて、需要の高い機械学習に関連する職務に備えましょう。
+>この試験の理想的な候補者は、機械学習エンジニアリングまたは関連分野で少なくとも 1 年間の経験があり、AWS サービスを使用した実践経験が 1 年間 ある方です。機械学習の経験がないプロフェッショナルは、Exam Prep Plan で利用できるトレーニングを受講して、知識とスキルの構築を開始できます。
 
-<figure><figcaption>出典：<a href="https://aws.amazon.com/jp/certification/certified-machine-learning-specialty/"> AWS Certified Machine Learning - Specialty ( https://aws.amazon.com/jp/certification/certified-machine-learning-specialty/ )</a>より抜粋</figcaption></figure>
+<figure><figcaption>出典：<a href="https://aws.amazon.com/jp/certification/certified-machine-learning-engineer-associate/"> AWS Certified Machine Learning Engineer - Associate ( https://aws.amazon.com/jp/certification/certified-machine-learning-engineer-associate/ )</a>より抜粋</figcaption></figure>
 
-第2弾で執筆した**AWS Certified AI Practitioner**より古くからある試験のため学習リソースは揃っています。ただし、**線形学習や回帰などの機械学習に関する専門知識**が問われるため、G検定等で知識をキャッチアップしてから臨んだほうが良いかと思います。
+第2弾で執筆した**AWS Certified AI Practitioner**と同じタイミングで登場した新試験となります。そのため、私が受験した当時は**学習リソースが少なく対策が難しい**といった状況でした。そのうえで、試験勉強を行うことで**AWSサービスでML/AIサービスをうまく運用していくために考慮しなくてはいけないポイントは何か**をキャッチアップすることができると思いました。
 
 ## 試験勉強について
 
-試験勉強に関しては**MLサービスであるSageMakerに関するサービス理解**と**機械学習に関する基礎知識**（正則化、過学習への対策など）をキャッチアップしておりました。幸い、G検定で機械学習に関する基礎知識はキャッチアップしていたため、学習に対して苦労はそこまでありませんでした。
+出題範囲としてAIF・MLSと重複するところが多数あります。そのため、並行して一気に学習を行ったほうが**AWSのML/AIサービスの全体像の理解**は進むと思います。そのうえで、AWS Glueのパイプライン運用について深く求められるため、**ホワイトペーパーやハンズオンを通じてCI/CDに関する理解を深めておく**ことをおススメします。
 
 ## 試験を通じて変わったこと
 
-AWSのMLサービスをうまく利用するために**どのような知識が必要なのか、トラブル時にはどのような対処が必要なのか**を考えることができました。また、機械学習を行ううえで、**学習を効果的に進めるための勘所**を少しながらキャッチアップできたと思いました。ただし、MLサービスがAWSの他サービスと比較して高価なため、ハンズオンを通じた学習が行えなかったのが悔いだと思いました。
+AWSサービスを利用した機械学習・データ分析基盤を構築するときのパイプラインのお作法について思い浮かべられるようになりました。また、JAWS-UG含む勉強会で**AWS Glueを実務で利用しているということは○○を考慮して運用しているな**といった自分なりの理解が行えるようになりました。そのうえで、私自身が本格的にパイプラインを構築した経験が少ないため、自宅環境で構築していきたいと考えています。
 
 ## まとめ
 
-**AWSサービスを用いて機械学習を行いたい**といった方はぜひチャレンジしてみることをおススメします。普段、業務の中で機械学習に携わっていない方であっても、試験勉強を行うことで**AWSのMLサービスのより良い利用方法**をキャッチアップできると考えています。
+個人的に、**ソリューションアーキテクトロールの方が機械学習に関する知識をキャッチアップする**のであればAIF・MLSよりおススメできると思います。そのうえで、**AWS Glue/Step Functionなどの使い分け**を考えながら試験学習を行っていくことでパイプラインへの理解が深まるかと思います。
 
 本内容を読んで、資格チャレンジする人がひとりでも増えれば幸いです。
 
