@@ -2,7 +2,7 @@
 class: chapter
 ---
 
-# システムアーキテクチャの考え方をAWSから学ぼう
+# システムアーキテクチャの考え方をAWSから学んだ
 
 <div class="flush-right">
 @terusaku
@@ -27,7 +27,7 @@ AWSサービスは仕様という形で"ベストプラクティス"を実践し
 * false positive
 * サービスディスカバリ
 * Control Plane / Data Plane
-* Apple to Apple<span class="footnote">AWS Japanの中の人との打ち合わせで初めて聞いた言い回し。コンサル職と一緒に仕事をする機会もAWS案件がきっかけで何度かあり、面白かった。</span>
+* Apple to Apple<span class="footnote">余談ですが、AWS Japanの中の人との打ち合わせで初めて聞いた言い回し。コンサル職と一緒に仕事をする機会もAWS案件で何度かあり、面白かった。</span>
 
 こうしたAWSのナレッジベースでは設計や実装における基本用語も登場するので、Webエンジニア全般に共通する概念を知る機会にもなります。公式ブログやBlackBeltも含めて、AWSのナレッジセンタから「技術一般の原則」に近い言葉を知ることができたので、今でも役立ってくれている気がします。
 
