@@ -31,12 +31,22 @@ AWSの認定は現在(2025年5月時点)で12種類ありますが、その中�
 ## さいごに
 ここまで認定についてのオススメしてきましたが、個人的に自動車の運転免許と同じくAWS認定はあくまでスタート地点に立っていることを証明するためのものだと思っています。認定で学んだ構成やベストプラクティスなどを実際にAWSアカウントで試してみるとAWS全冠していても意外と詰まることが多いです。そのたびにネットで検索したり生成AIを使って調べてトライアンドエラーを繰り返し、学んだことを整理してアウトプットする。そうすることで本物の知識とスキルが身につくと思います。学ぶきっかけや目的としてAWS認定を利用して、次の目標としてアウトプットを通してAWS Community Buildersなどを目指してみてください。
 
+　
+
+　　
+
+　　　
+
+　　　
+
+　　
+
 ### 著者紹介
 
 ---
 
 <div class="author-profile">
-    <img src="images/naosan.jpg" width="60%">
+    <img src="images/naosan.jpg">
     <div>
         <div>
             <b>山本 直弥 ( Nao )</b></br> 
@@ -48,8 +58,8 @@ AWSの認定は現在(2025年5月時点)で12種類ありますが、その中�
     </div>
 </div>
 <p style="margin-top: 0.5em; margin-bottom: 2em;">
-2025~ AWS Community Builder (DevTools) </br> 
-2023~ AWS All Certifications Engineer </br> 
-今力を入れてること：技術アウトプット(LT登壇、ブログ投稿など) </br> 
-すきなもの：バーチャルおばあちゃん、ながの（ちいかわ）、真勇者ルーサー、神田伯山さん </br> 
+2025~ AWS Community Builder (DevTools)<br>
+2023~ AWS All Certifications Engineer<br>
+今力を入れてること：技術アウトプット(LT登壇、ブログ投稿など) <br> 
+すきなもの：バーチャルおばあちゃん、ながの（ちいかわ）、真勇者ルーサー、神田伯山さん<br>
 </p>
