@@ -67,6 +67,7 @@ const def = {
 	"chap-naosan-19icons.md",
 	"chap-naosan-20connpass.md",
 	"chap-oyakata-greetingcard.md",
+	"chap-yakumo-neptune.md",
 
     // 後書き
     "90-postscript.md",
