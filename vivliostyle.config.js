@@ -107,6 +107,7 @@ const def = {
 	"chap-akira-sato22.md",
   "chap-ryder472-guardduty.md",
   "chap-ryder472-cert-scs.md",
+  "chap-kkimura-ug-kyushu.md",
 
     // 後書き
     "90-postscript.md",
