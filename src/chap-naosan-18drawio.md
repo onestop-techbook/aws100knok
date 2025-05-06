@@ -28,7 +28,7 @@ VSCodeの拡張機能としてもDraw.ioのエディタが提供されていま�
 <img src="images/chap-naosan-devtools/drawio_03_extends.png" width="60%">  
 
 
-### 著者紹介
+#### 著者紹介
 
 ---
 

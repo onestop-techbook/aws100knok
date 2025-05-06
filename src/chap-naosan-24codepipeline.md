@@ -32,7 +32,7 @@ AWS CodePipeline は自動で処理が実行されるだけではなく、人の
 <img src="images/chap-naosan-devtools/CodePipeline_03_rireki.png" width="90%">  
 
 
-### 著者紹介
+#### 著者紹介
 
 ---
 

@@ -71,6 +71,8 @@ re:InventでEPICチームののセッションを見たときから、私は「�
 私のおすすめは、YouTubeの「AWS Eventsチャンネル（[https://www.youtube.com/@AWSEventsChannel](https://www.youtube.com/@AWSEventsChannel)）」です。AWS Eventsチャンネルでは、過去のre:Inventで行われたセッションの多くが無料で公開されています。その中にEPICチームの発表がいくつかあります。
 気になった方はぜひ、AWS Eventsチャンネル内を「EQ」や「Emotional Intelligence」といったキーワードで検索してみてください。
 
+#### 著者紹介
+
 ---
 
 <div class="author-profile">

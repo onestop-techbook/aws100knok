@@ -72,8 +72,8 @@ AWS Organizationsとの統合の話はありませんが、アカウントには
 Service Catalog で独自の設定(ブループリント)を作成し、ブループリントを適用したアカウントを払い出す一連の流れが掲載されています。ハンズオンとしても使用できる記事なので、是非やってみてください。
 
 
-### 著者紹介
-
+#### 著者紹介
+---
 
 <div class="author-profile">
     <img src="images/takano0131.jpg">

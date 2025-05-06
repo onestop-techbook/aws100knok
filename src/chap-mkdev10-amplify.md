@@ -104,6 +104,8 @@ backend.generateHaikuFunction.resources.lambda.addToRolePolicy(
 ## 最後に
 AmplifyはGen2になり進化を続けています。生成AIアプリの開発を支援するAI KitやWAFが統合されるなど今後の進化も楽しみです。私自身Amplifyの魅力に取り憑かれ現在ではAmplify Japan User Groupの運営として活動しています。Amplifyを一緒に盛り上げてくれる仲間が一人でも増えることを願っています。
 
+#### 著者紹介
+
 ---
 
 <div class="author-profile">
