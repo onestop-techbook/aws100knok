@@ -67,10 +67,10 @@ const def = {
 	"chap-naosan-18drawio.md",
 	"chap-naosan-19icons.md",
 	"chap-naosan-20connpass.md",
-  	"chap-takano-game.md",
+  "chap-takano-game.md",
 	"chap-oyakata-greetingcard.md",
 	"chap-yakumo-neptune.md",
-    "chap-terusaku-ArchitectureCenter.md",
+  "chap-terusaku-ArchitectureCenter.md",
 	"chap-amixedcolor-aws-sum.md",
 	"chap-mob_engineer-01soa.md",
 	"chap-mob_engineer-02aif.md",
@@ -83,11 +83,12 @@ const def = {
 	"chap-mob_engineer-09dea.md",
 	"chap-mob_engineer-10dva.md",
   "chap-aikawa-certification.md",
-    "chap-fossamagna-amplify-hosting.md",
+  "chap-fossamagna-amplify-hosting.md",
 	"chap-naosan-21iac.md",
 	"chap-naosan-22pac.md",
 	"chap-naosan-23codedeploy.md",
 	"chap-naosan-24codepipeline.md",
+  "chap-harukotanabe-aws_certification.md",
 
 
     // 後書き
