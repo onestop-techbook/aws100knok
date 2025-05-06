@@ -108,6 +108,7 @@ const def = {
 	"chap-kkimura-ug-kyushu.md",
 	"chap-ryder472-guardduty.md",
 	"chap-ryder472-cert-scs.md",
+	"chap-shfk2-cloudwatchOI.md",
 
     // 後書き
     "90-postscript.md",
