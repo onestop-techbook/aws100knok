@@ -1,4 +1,8 @@
-﻿# 一人でもみんなでも AWS Organizationsを使おう！
+﻿---
+class: chapter
+---
+
+# 一人でもみんなでも AWS Organizationsを使おう！
 
 <div class="flush-right">
 高野(石原)
