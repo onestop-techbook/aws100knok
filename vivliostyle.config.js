@@ -42,6 +42,7 @@ const def = {
     "chap-otsuka-cloudshell.md",
     "chap-ikngm-cdk.md",
     "chap-mkdev10-amplify.md",
+    "chap-kasacchiful-stepfunctions.md",
     "chap-mob_engineer-jaws-community-life.md",
     "chap-hiyokoinfraengineer.md",
     "chap-takano-org.md",
@@ -101,6 +102,14 @@ const def = {
 	"chap-mob_engineer-water-mark.md",
 	"chap-mob_engineer-security-group-type.md",
 	"chap-mob_engineer-ec2-global-group.md",
+	"chap-amixedcolor-aws.md",
+	"chap-amixedcolor-amplify-gen2.md",
+	"chap-naosan-31skillbuilder.md",
+	"chap-akira-sato22.md",
+	"chap-kkimura-ug-kyushu.md",
+	"chap-ryder472-guardduty.md",
+	"chap-ryder472-cert-scs.md",
+	"chap-shfk2-cloudwatchOI.md",
 
     // 後書き
     "90-postscript.md",
