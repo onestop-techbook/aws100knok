@@ -82,11 +82,13 @@ const def = {
 	"chap-mob_engineer-07sap.md",
 	"chap-mob_engineer-09dea.md",
 	"chap-mob_engineer-10dva.md",
+  "chap-aikawa-certification.md",
     "chap-fossamagna-amplify-hosting.md",
 	"chap-naosan-21iac.md",
 	"chap-naosan-22pac.md",
 	"chap-naosan-23codedeploy.md",
 	"chap-naosan-24codepipeline.md",
+
 
     // 後書き
     "90-postscript.md",
