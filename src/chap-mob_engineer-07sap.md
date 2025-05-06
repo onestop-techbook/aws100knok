@@ -8,7 +8,7 @@ class: chapter
 奥田 雅基 @mob_engineer
 </div>
 
-<img src="images/chap-mob_engineer-certificates/aws-certified-solutions-architect-professional.png">
+<img src="images/chap-mob_engineer-certificates/aws-certified-solutions-architect-professional.png" width="40%">
 
 ## 前置き
 
