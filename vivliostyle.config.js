@@ -42,6 +42,7 @@ const def = {
     "chap-otsuka-cloudshell.md",
     "chap-ikngm-cdk.md",
     "chap-mkdev10-amplify.md",
+    "chap-kasacchiful-stepfunctions.md",
     "chap-mob_engineer-jaws-community-life.md",
     "chap-hiyokoinfraengineer.md",
     "chap-takano-org.md",
