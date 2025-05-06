@@ -188,6 +188,9 @@ resilient systems on AWS ( https://d1.awsstatic.com/events/reinvent/2019/REPEAT_
 
 後半でベストプラクティスや設計思想に関する話題に飛躍しましたが、根底を理解した上で AWS を活用すればサポートの活用も容易になる好例ではないかと思い言及しました。
 
+#### 著者紹介
+
+
 ---
 
 <div class="author-profile">
