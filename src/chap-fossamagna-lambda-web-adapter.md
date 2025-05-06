@@ -4,6 +4,8 @@ class: chapter
 
 # Lambda Web Adapter を使って Lambda で HTTP サーバを動かそう
 
+<div class="flush-right">村上 雅彦 a.k.a @fossamagna</div>
+
 ## はじめに
 
 AWS Lambda はイベント駆動型のサーバーレス環境として広く使われています。以前から `API Gateway` と組み合わせて Web API を構築することが多かったと思いますが、多少の学習コストや Lambda 関数側で `API Gateway` から受け取ったイベントを処理する実装が必要になるなどの制約があります。そんな中、2023年に登場した [Lambda Web Adapter](https://github.com/awslabs/aws-lambda-web-adapter) は、Lambda 上で HTTP アプリケーションを動作させる手段として注目を集めています。
