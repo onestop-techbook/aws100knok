@@ -95,6 +95,9 @@ const def = {
 	"chap-naosan-28eventbridge.md",
 	"chap-naosan-29drift.md",
 	"chap-naosan-30github.md",
+	"chap-mob_engineer-water-mark.md",
+	"chap-mob_engineer-security-group-type.md",
+	"chap-mob_engineer-ec2-global-group.md",
 
     // 後書き
     "90-postscript.md",
