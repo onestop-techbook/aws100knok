@@ -91,7 +91,7 @@ const def = {
 	"chap-naosan-22pac.md",
 	"chap-naosan-23codedeploy.md",
 	"chap-naosan-24codepipeline.md",
-  	"chap-harukotanabe-aws_certification.md",
+  "chap-harukotanabe-aws_certification.md",
 	"chap-naosan-25s3lifecycle.md",
 	"chap-naosan-26costcut.md",
 	"chap-naosan-27sfparallel.md",
@@ -109,6 +109,7 @@ const def = {
 	"chap-ryder472-guardduty.md",
 	"chap-ryder472-cert-scs.md",
 	"chap-shfk2-cloudwatchOI.md",
+  "chap-harukotanabe-jaws_sainokuni.md",
 
     // 後書き
     "90-postscript.md",
