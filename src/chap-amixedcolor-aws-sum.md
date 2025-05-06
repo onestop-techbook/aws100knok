@@ -81,7 +81,7 @@ Choose an AWS Quick Start application template
 もしご興味ある方は、下記のリンクからJAWS FESTA 2024 in 広島での発表資料をご覧いただければと思います。
 https://speakerdeck.com/amixedcolor/bu-yao-narisosuwozi-dong-deding-qi-de-nizheng-li-surufang-fa-sandboxakauntonokosutowoxue-jian-siyou
 
-実装の詳細でお困りがあれば、XにDMしていただければと思います！
+実装の詳細でお困りがあれば、X（@amixedcolor）にDMしていただければと思います！
 
 ### 対応サービスについて紹介
 
