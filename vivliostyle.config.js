@@ -89,6 +89,7 @@ const def = {
 	"chap-naosan-23codedeploy.md",
 	"chap-naosan-24codepipeline.md",
   "chap-harukotanabe-aws_certification.md",
+  "chap-p0n-S3.md",
 
 
     // 後書き
