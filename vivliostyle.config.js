@@ -103,6 +103,8 @@ const def = {
 	"chap-mob_engineer-ec2-global-group.md",
 	"chap-amixedcolor-aws.md",
 	"chap-amixedcolor-amplify-gen2.md",
+	"chap-naosan-31skillbuilder.md",
+	"chap-akira-sato22.md",
 
     // 後書き
     "90-postscript.md",

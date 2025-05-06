@@ -104,6 +104,8 @@ AWS Step Functionsは非常に強力な機能を持ったサーバーレスオ�
 Step Functionsでワークフローを制御することで、AWSの各種サービス間の連携を上手に行うことができます。
 皆さんもまずはGUIでワークフローを構築して、フロー制御してみませんか？
 
+#### 著者紹介
+
 ---
 
 <div class="author-profile">
