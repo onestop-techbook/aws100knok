@@ -67,7 +67,7 @@ const def = {
 	"chap-naosan-18drawio.md",
 	"chap-naosan-19icons.md",
 	"chap-naosan-20connpass.md",
-  "chap-takano-game.md",
+  	"chap-takano-game.md",
 	"chap-oyakata-greetingcard.md",
 	"chap-yakumo-neptune.md",
     "chap-terusaku-ArchitectureCenter.md",
@@ -82,7 +82,11 @@ const def = {
 	"chap-mob_engineer-07sap.md",
 	"chap-mob_engineer-09dea.md",
 	"chap-mob_engineer-10dva.md",
-      "chap-fossamagna-amplify-hosting.md",
+    "chap-fossamagna-amplify-hosting.md",
+	"chap-naosan-21iac.md",
+	"chap-naosan-22pac.md",
+	"chap-naosan-23codedeploy.md",
+	"chap-naosan-24codepipeline.md",
 
     // 後書き
     "90-postscript.md",
