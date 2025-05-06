@@ -100,6 +100,8 @@ const def = {
 	"chap-mob_engineer-water-mark.md",
 	"chap-mob_engineer-security-group-type.md",
 	"chap-mob_engineer-ec2-global-group.md",
+	"chap-amixedcolor-aws.md",
+	"chap-amixedcolor-amplify-gen2.md",
 
     // 後書き
     "90-postscript.md",
