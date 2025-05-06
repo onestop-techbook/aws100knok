@@ -2,6 +2,6 @@
 class: part
 ---
 
-<h1>推しのサービス</h1>
+<h1>コミュニティの推しポイント</h1>
 
 hogehoge fugafuga
