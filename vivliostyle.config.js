@@ -105,9 +105,9 @@ const def = {
 	"chap-amixedcolor-amplify-gen2.md",
 	"chap-naosan-31skillbuilder.md",
 	"chap-akira-sato22.md",
-  "chap-ryder472-guardduty.md",
-  "chap-ryder472-cert-scs.md",
-  "chap-kkimura-ug-kyushu.md",
+	"chap-kkimura-ug-kyushu.md",
+	"chap-ryder472-guardduty.md",
+	"chap-ryder472-cert-scs.md",
 
     // 後書き
     "90-postscript.md",
