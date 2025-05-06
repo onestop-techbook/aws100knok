@@ -72,7 +72,7 @@ AWSをお使いであれば、クラウドセキュリティをより強固な�
 TEAM<br>
 （出典：https://aws-samples.github.io/iam-identity-center-team/）
 
-### 著者紹介
+#### 著者紹介
 
 ---
 
