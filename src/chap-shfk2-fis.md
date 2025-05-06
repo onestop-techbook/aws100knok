@@ -78,8 +78,8 @@ FISは、単に信頼性を高めるだけでなく、エンジニアの育成�
     </div>
 </div>
 <p style="margin-top: 0.5em; margin-bottom: 2em;">
-AWS Community Builders 2025 (Cloud Operations)
-AWS Certifications  x 15
-現在はオンプレシステム更改のPMを担当
-re:Invent 2022-2024参戦
+AWS Community Builders 2025 (Cloud Operations)<br>
+AWS Certifications  x 15<br>
+現在はオンプレシステム更改のPMを担当<br>
+re:Invent 2022-2024参戦<br>
 </p>
