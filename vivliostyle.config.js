@@ -89,6 +89,9 @@ const def = {
 	"chap-naosan-23codedeploy.md",
 	"chap-naosan-24codepipeline.md",
   "chap-harukotanabe-aws_certification.md",
+  "chap-mob_engineer-ec2-global-group.md",
+  "chap-mob_engineer-security-group-type.md",
+  "chap-mob_engineer-water-mark.md",
 
 
     // 後書き
