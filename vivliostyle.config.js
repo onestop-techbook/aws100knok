@@ -67,7 +67,7 @@ const def = {
 	"chap-naosan-18drawio.md",
 	"chap-naosan-19icons.md",
 	"chap-naosan-20connpass.md",
-  "chap-takano-game",
+  "chap-takano-game.md",
 	"chap-oyakata-greetingcard.md",
 	"chap-yakumo-neptune.md",
     "chap-terusaku-ArchitectureCenter.md",
