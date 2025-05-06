@@ -25,11 +25,13 @@ const def = {
     { rel: "contents" },
 
     // 第一部 書き方の例＋並べる前はここへ。
-    "part-easy.md",
-    "chap-introduction.md",
+    "part-1-service.md",
     "chap-sour23-lambda.md",
+	"part-2-usage.md",
     "chap-kazzpapa3-aws-technical-support.md",
-    "chap-yuj1osm-team.md",
+	"part-3-certification.md",
+	"chap-yuj1osm-team.md",
+	"part-4-community.md",
     "chap-atsumi-community.md",
     "chap-kazzpapa3-aws-cloudtrail.md",
     "chap-whitebird_sp-amazon-vpc.md",
@@ -95,6 +97,9 @@ const def = {
 	"chap-naosan-28eventbridge.md",
 	"chap-naosan-29drift.md",
 	"chap-naosan-30github.md",
+	"chap-mob_engineer-water-mark.md",
+	"chap-mob_engineer-security-group-type.md",
+	"chap-mob_engineer-ec2-global-group.md",
 
     // 後書き
     "90-postscript.md",

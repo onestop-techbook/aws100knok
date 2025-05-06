@@ -28,8 +28,17 @@ CloudFormationを使ってAWSのリソース定義をIaCコードとして管理
 ↓自動実行のドリフト検出結果をユーザーに通知するアーキテクチャ例  
 <img src="images/chap-naosan-devtools/drift_03_cognito.png" width="80%">  
 
+　
 
-### 著者紹介
+　
+
+　
+
+　
+
+　
+
+#### 著者紹介
 
 ---
 

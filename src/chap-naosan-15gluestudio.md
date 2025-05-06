@@ -23,7 +23,7 @@ ETL処理を大雑把に説明するとデータソースからデータを取�
 <img src="images/chap-naosan-devtools/glue_02_transformnode.png" width="60%">
 
 
-### 著者紹介
+#### 著者紹介
 
 ---
 

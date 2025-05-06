@@ -101,7 +101,10 @@ Amazon Neptuneは複雑な関係を可視化、分析したいあらゆる場面
 気になった方はぜひ、Amazon Neptuneを使ってみてください！
 
 
-### 著者紹介
+#### 著者紹介
+
+---
+
 <div class="author-profile">
     <img src="images/yakumo.jpg">
     <div>
