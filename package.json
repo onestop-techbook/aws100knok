@@ -6,8 +6,8 @@
   "type": "module",
   "author": "erukiti <erukiti+github@gmail.com>",
   "scripts": {
-    "build": "vivliostyle build -o screen.pdf --timeout 300",
-    "build:print": "vivliostyle build -o print.pdf --timeout 300",
+    "build": "vivliostyle build -o screen.pdf",
+    "build:print": "vivliostyle build -o print.pdf",
     "build:press-ready": "vivliostyle build -o print.pdf --press-ready --preflight-option gray-scale",
     "preview": "vivliostyle preview"
   },
