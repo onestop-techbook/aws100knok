@@ -61,7 +61,7 @@ AWSサービスの機能をキャッチアップすることも重要ですが�
 ---
 
 <div class="author-profile">
-    <img src="images/chap-p0n-s3/p0n.png">
+    <img src="images/chap-p0n-S3/p0n.png">
     <div>
         <div>
             <b>早川 裕志 (Hiroshi Hayakawa)</b>
