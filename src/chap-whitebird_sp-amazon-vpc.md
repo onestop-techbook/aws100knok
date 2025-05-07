@@ -29,7 +29,7 @@ Amazon VPCを利用することで、次のような機能を利用すること�
 
 本記事では機能説明ではなくて、推しポイントなので機能については省略します。
 
-## Amzaon VPCの歴史
+## Amazon VPCの歴史
 Amaon VPC自体は2009年にプレビュー版がリリースされました。リリース文章を読むと、このようなことが書いてあります。
 
 「Amazon VPC enables enterprises to connect their existing infrastructure to a set of isolated AWS compute resources via a Virtual Private Network (VPN) connection, and to extend their existing management capabilities such as security services, firewalls, and intrusion detection systems to include their AWS resources.」

@@ -87,7 +87,7 @@ AWS認定資格は、自己成長へのモチベーションを保つ大きな�
 
 みなさんも今日から試してみてはいかがでしょう？
 
-### Japan AWS All Cetifications Engineers
+### Japan AWS All Certifications Engineers
 
 > 「Japan AWS All Certifications Engineers」とは、AWS Partner Network (APN) に参加している会社に所属し、「AWS 認定資格を全て保持している」 AWS エンジニアの皆様を対象にした表彰プログラムです。
 
