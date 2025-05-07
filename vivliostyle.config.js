@@ -48,6 +48,7 @@ const def = {
     "chap-takano-org.md",
     "chap-beli-epic.md",
     "chap-beli-cert.md",
+    "chap-beli-gold-jacket.md",
 	"chap-naosan-01infrastructurecomposer.md",
 	"chap-naosan-02iacgenerator.md",
 	"chap-otsukit-cloudformation.md",
@@ -112,6 +113,7 @@ const def = {
 	"chap-shfk2-cloudwatchOI.md",
   "chap-harukotanabe-jaws_sainokuni.md",
     "chap-kazzpapa3-jawsug.md",
+    "chap-p0n-S3.md",
 
     // 後書き
     "90-postscript.md",
