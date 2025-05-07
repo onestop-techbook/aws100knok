@@ -111,6 +111,7 @@ const def = {
 	"chap-ryder472-cert-scs.md",
 	"chap-shfk2-cloudwatchOI.md",
   "chap-harukotanabe-jaws_sainokuni.md",
+    "chap-kazzpapa3-jawsug.md",
 
     // 後書き
     "90-postscript.md",
