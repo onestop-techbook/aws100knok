@@ -114,7 +114,7 @@ const def = {
 	"chap-shfk2-cloudwatchOI.md",
   	"chap-harukotanabe-jaws_sainokuni.md",
     "chap-kazzpapa3-jawsug.md",
-    "chap-p0n-S3.md",
+    "chap-p0n-s3.md",
 	"chap-hirosys-support.md",
 
     // 後書き
