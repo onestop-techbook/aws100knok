@@ -40,6 +40,7 @@ const def = {
     "chap-kazzpapa3-aws-cli.md",
     "chap-otsuka-certification.md",
     "chap-otsuka-cloudshell.md",
+    "chap-otsuka-polly.md",
     "chap-ikngm-cdk.md",
     "chap-mkdev10-amplify.md",
     "chap-kasacchiful-stepfunctions.md",
