@@ -133,6 +133,9 @@ const def = {
 	"chap-naosan-41jawssyukan.md",
 	"chap-naosan-42edtech.md",
 	"chap-naosan-43builderscard.md",
+	"chap-otsukit-communicationtest.md",
+	"chap-otsukit-reinvent.md",
+	"chap-siba-operation.md",
 
     // 後書き
     "90-postscript.md",
