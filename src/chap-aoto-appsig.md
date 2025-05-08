@@ -1,0 +1,51 @@
+---
+class: chapter
+---
+
+# AWS の APM: Application Signals でオブザーバビリティを探求しよう
+
+<div class="flush-right">
+木村 健人 @AoTo
+</div>
+
+<img src="images/aoto_profile.jpg" width="40%">
+
+## はじめに
+すべての AWS ユーザーが利用する AWS サービスと聞いて何を思い浮かべますか？こう問いかけられて Amazon CloudWatch を思い浮かべる方は少ないかもしれません。
+いずれかの AWS サービスを利用開始すると、ほとんどすべてのリソースは稼働状況を CloudWatch に自動的に記録し始めます。こうして多くの AWS ユーザーが意識しないうちに、CloudWatch は利用されているのです。
+
+「すべての AWS ユーザーが利用する」という割には、CloudWatch…どころか監視・オブザーバビリティに興味のあるユーザーは比較的少数です。
+「運用監視は AWS 環境の構築後に考えるもの」だったり、「アーキテクトや開発者はシステム運用に詳しい必要はない」など意見を持たれる方もいらっしゃるかもしれません。
+
+しかし、システムの状態が分からなければ構築・開発したものが正しく動くかを評価することすら困難です。このようにシステムの状態を外部からできる限り把握しようとする際に、オブザーバビリティの手法は欠かせないものとなっています。
+こうしたオブザーバビリティの手法は、さまざまなテレメトリーシグナルつまり監視情報を集めることで向上していきます。こうした監視情報を必要最低限から十分な範囲まで、最小限の管理で収集できるサービスこそ Amazon CloudWatch なのです。
+
+## CloudWatch の全体像
+Amazon CloudWatch は AWS の中でも最も古いサービスの一つです。その初めてのドキュメントは2010年にも遡って確認できます。
+現在の CloudWatch の機能は20項目を超え、さまざまな種類の監視情報を扱うことができます。
+
+![](images/chap-aoto-appsig/cloudwatch_feature.png)
+
+
+## アプリケーションの監視とは？
+  
+## CloudWatch Application Signals
+
+## まとめ
+
+#### 著者紹介
+
+---
+
+<div class="author-profile">
+    <img src="images/aoto_profile.jpg">
+    <div>
+        <div>
+            <b>木村 健人</b>
+            <a href="https://x.com/AoToLog_">@AoToLog_</a>
+        </div>
+    </div>
+</div>
+<p style="margin-top: 0.5em; margin-bottom: 2em;">
+クラウド技術が好きな犬のツールの中の人。G で始まるクラウドのコミュニティ運営もやっています。AWS Community Builder(Cloud Operations), Japa AWS All Certifications Engineer 2022-24。
+</p>
