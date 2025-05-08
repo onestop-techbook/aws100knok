@@ -3,6 +3,9 @@ import { VFM } from "@vivliostyle/vfm";
 const isPrint = process.argv.includes("print.pdf");
 
 const def = {
+  //デフォルト２分でタイムアウトしちゃうので、ローカルコンパイル対応のため追加
+  timeout: 300000,   // 5 分
+  
   title: "vivliostyle-sample", // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
   author: "oyakata <oyakata2438@gmail.com>", // default to `author` in `package.json` or undefined.
   language: "ja", // default to undefined.
