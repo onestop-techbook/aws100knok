@@ -136,6 +136,7 @@ const def = {
 	"chap-otsukit-communicationtest.md",
 	"chap-otsukit-reinvent.md",
 	"chap-siba-operation.md",
+	"chap-fukuchi-bedrock-custom-orchestration.md",
 
     // 後書き
     "90-postscript.md",
