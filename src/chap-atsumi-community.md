@@ -8,7 +8,7 @@ class: chapter
 ― 技術力ゼロからはじまった、JAWS-UGでのつながり ―
 
 <div class="flush-right">
-HIROYUKI ATSUMI
+元霞のハム｜元国家公務員SNS優良者（非公式）
 </div>
 
 
@@ -89,20 +89,28 @@ JAWS-UGは、その気持ちを何よりも大切にしてくれる。
 次にその扉を開くのは、きっとあなたかもしれない。
 知らなかった世界が、すぐそばで待っている。
 
+#### 著者紹介
+
+
 ---
 
 
 <div class="author-profile">
-    <img src="images/hiroyukiatsumi512.jpg">
+    <img src="images/hamu.jpg">
     <div>
         <div>
-            <b><a href="https://x.com/hiroyuki">@hiroyuki</a></b>
+            <b>元霞のハム｜元国家公務員SNS優良者（非公式）</b>
+			<a href="https://x.com/sky621hnd">@sky621hnd</a>
         </div>
         <div>
-            所属：<a href="https://jawsug-kobe.connpass.com/">?</a>
+            note：<a href="https://note.com/acrossthesky">https://note.com/acrossthesky</a>
         </div>
     </div>
 </div>
 <p style="margin-top: 0.5em; margin-bottom: 2em;">
-ひとこと
+
+元国家公務員。霞が関で24年勤務後、40代で民間企業に転職。現在はPR・GR担当。
+転職後の働き方や日々の気づき、海外旅行の記録（台湾に行きがち）をnoteとXで発信しています。
+HSK5級。文章だけで76,000インプレッション達成。
+モノを買っては「はぁーまた買っちゃった」とため息をつきつつ、ウキウキしています。
 </p>

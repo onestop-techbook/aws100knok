@@ -174,8 +174,9 @@ AWS CloudTrail を活用する際に AWS CLI が複雑な検索をする際に�
 
 また、弱点だと感じていた EventSource を知るための網羅的な情報が公式にない問題も Service Reference を利用すれば容易に調べられるようになったことも合わせて紹介しました。
 
-さらに Service Reference は CloudTrail での活用のみならず、本書でおそらく誰かが描いてくれるであろう IAM のポリシー検討にも役立ちそうです。
+さらに Service Reference は CloudTrail での活用のみならず、本書でおそらく誰かが書いてくれるであろう IAM のポリシー検討にも役立ちそうです。
 
+#### 著者紹介
 
 ---
 

@@ -30,6 +30,7 @@ Amazon VPCを利用することで、次のような機能を利用すること�
 本記事では機能説明ではなくて、推しポイントなので機能については省略します。
 
 ## Amazon VPCの歴史
+
 Amazon VPC自体は2009年にプレビュー版がリリースされました。リリース文章を読むと、このようなことが書いてあります。
 
 「Amazon VPC enables enterprises to connect their existing infrastructure to a set of isolated AWS compute resources via a Virtual Private Network (VPN) connection, and to extend their existing management capabilities such as security services, firewalls, and intrusion detection systems to include their AWS resources.」
@@ -147,7 +148,7 @@ Amazon VPCを一つ構築する際にもWell-Architected Frameworkの6つの柱�
 ## まとめ
 Amazon VPCはAWSの初心者でも利用することの多いサービスですが、ちゃんと設計しようと思うとIPアドレス範囲の払い出し一つとっても考慮することが多く、非常に奥が深いサービスとなっています。ネットワークのことを知れば知るほどたくさんのことを考慮でき、また複雑な構成を作ることもできるようになっています。ネットワーク自体が難しいという声も最近では聞くようになりましたが、VPCを設計しながら、Well-Architected FrameworkなどAWSの基本原則の理解を深めてみるのもよいと思います。
 
-### 著者紹介
+#### 著者紹介
 
 ---
 

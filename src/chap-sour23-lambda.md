@@ -7,149 +7,459 @@ class: chapter
 大澤文孝@sour23
 </div>
 
-## Lambdaの概要
-AWS Lambdaは、ご存じの人も多いと思いますが、サーバレスでプログラムを動かすことができる環境です。
+## 「Lambda」ならコストダウンできる
 
-### サーバレスとは
+AWSには、たくさんのサービスがありますが、僕が一番推したいのは「AWS Lambda」！
 
-この「サーバレス」というのは、サーバーがないという意味ではなくて、サーバーをAWSが用意してくれるという意味です。僕たちがやらなければいけないのは、「Lambda関数」と呼ばれる関数を作って、それをAWS Lambdaに登録することです。登録すると、いわゆるスタンバイ状態になり、実行されようとしたときに、Lambdaランタイムと呼ばれる実行環境に展開され、そこで実行されます。この実行環境の準備、そして、実行そのものを都度、AWSが行ってくれるから、サーバーが必要ない、だから、サーバレスと呼ばれています。
+Lambdaは、サーバーレスでプログラムを動かせる環境です。
+
+プログラムを作る必要があるので、わかりにくいサービスではあるのですが、うまく使うと、少量のプログラムで効果的に目的のITシステムを作れます。
+
+そして使っただけの課金なので、待機が多いITシステムは大幅なコストダウンに繋がります。
+
+だからそう、「閑散としたシステムほど、Lambdaを推したい」のです！
+
+### Lambdaの仕組み
+
+「Lambdaがいいよ！」と言ってみたところで、その仕組みを知らないと、その良さがわからないと思います。
+
+そこでちょっとだけ、Lambdaについて解説します。
+
+<br>
+
+Lambdaは、サーバーレスと呼ばれる仕組みで動いています。
+
+「サーバーレス」というのは、サーバーがないという意味ではなくて、サーバーをAWSが用意してくれるという意味です。
+
+僕たちがやらなければいけないのは、「Lambda関数」と呼ばれる関数を作って、それをAWS Lambdaに登録することです。
+
+登録すると、いわゆるスタンバイ状態になり、実行されようとしたときに、Lambdaランタイムと呼ばれる実行環境に展開され、そこで実行されます。この実行環境の準備、そして、実行そのものを都度、AWSが行ってくれるから、サーバーが必要ない、だから、サーバーレスと呼ばれています。
 
 ![Lambda関数の実行](images/chap-sour23-lambda/fig01.drawio.svg){width=70%}
 
-### Lambda関数が実行されるとき
+### イベントの発生で実行される
 
-こうして登録されたLambda関数は、「イベント」を引き金にして実行されます。
+登録済のLambda関数は、「イベント」を引き金にして実行されます。
 
-イベントは大きく、「同期」と「非同期」があります。同期の代表的なものが、「Webからの呼び出し」です。HTTP（S）で接続したときにLambda関数を実行できます。いわゆる、「Webのバックエンド処理」を作るのに使えます。API Gatewayと組み合わせる、もしくは、Lambda単体で使えます。
+イベントは大きく、「同期」と「非同期」があります。
 
-非同期は、AWSのさまざまなサービスと連携するものです。代表的なものは、Amazon S3。バケットにファイルが作成されたり、変更されたり、削除されたりしたタイミングでLambda関数を実行できます。Lambda関数が実行されたときには、対象のオブジェクト名（ファイル名）がわかるので、そのファイルを読み取って何か処理できます。よくある例は、「画像ファイルがアップロードされたときに、自動でサムネイル画像を作る」ような仕組みです。こうした仕組みは、S3だけでなくDynamoDBやAWS IoTなどでも使えるので、さまざまな、「ちょっとした処理のフック」によく使われます。
+<br>
 
+同期の代表が、「Webからの呼び出し」です。HTTP（S）で接続したときにLambda関数を実行できます。いわゆる、「Webのバックエンド処理」を作るのに使えます。昔っぽく言ってしまうと、「LambdaでCGIが作れるぜ」ってことですね！
 
-＠図入ル
+API Gatewayと組み合わせる、もしくは、Lambda単体で使えます。
 
+![LambdaでWebのバックエンドを作る](images/chap-sour23-lambda/fig02.drawio.svg){width=70%}
 
+<br>
 
-### Lambdaのメリット
+非同期は、AWSのさまざまなサービスと連携するものです。
 
-Lambdaのメリットは、第一に、スケールしやすいということです。実行されると必要に応じてランタイムに展開されますが、このランタイムの負荷について、僕らが考える必要はありません。デフォルトでは最大100個まで同時実行できます（申請すれば増やせます）。そのためクラウドネイティブとかスケーラビリティのような文脈で、Lambda、そして、サーバレスがもてはやされています。
+代表的な連携は、Amazon S3。バケットにファイルが作成されたり、変更されたり、削除されたりしたタイミングでLambda関数を実行できます。
 
-第二のメリットは、コストを抑えられるという点です。Lambdaは「実行回数当たりの課金」です。Lambda関数を登録しただけでは無料で、実行した回数しか課金されません。そのため、閑散のシステムであればあるほど、コストを抑えられます。
+Lambda関数が実行されたときには、対象のオブジェクト名（ファイル名）がわかるので、そのファイルを読み取って何か処理できます。
 
-＠図入ル
+よくある例は、「画像ファイルがアップロードされたときに、自動でサムネイル画像を作る」ような仕組みです。こうした仕組みは、S3だけでなくDynamoDBやAWS IoTなどでも使えるので、さまざまな、「ちょっとした処理のフック」によく使われます。
 
+![ちょっとした処理のフックに使う](images/chap-sour23-lambda/fig03.drawio.svg){width=70%}
+
+### Lambdaの魅力
+
+Lambdaの魅力は、コストです。
+
+実行回数当たりの課金なので、Lambda関数を登録したけれどもスタンバイの状態なら無料です。
+
+たとえばWebサーバーをEC2で構築する場合、いつアクセスがあるかわからないので、24時間起動しっぱなしにする必要があります。つまり、ずっと費用がかかります。
+
+対してLambdaで実装すれば、実行されたときだけの課金なので、大幅なコストの削減が見込めます。
+
+![Lambdaのコスト削減効果](images/chap-sour23-lambda/fig04.drawio.svg){width=70%}
+
+もうひとつの魅力は、スケールしやすいことです。実行のランタイムは必要に応じて自動でスケールし、デフォルトでは最大100個まで同時実行できます（申請すれば増やせます）。
+
+もちろん、どんどん実行されればコストはかかりますが、サーバーの負荷を考えなくていいのは、運用上、ありがたいです。
+
+![Lambdaはスケールする](images/chap-sour23-lambda/fig05.drawio.svg){width=70%}
 
 <div class="column">
 <div class="column-title">スタートの遅さを解決する</div>
-Lambda関数は、必要になったときにLambdaランタイムに展開されるという仕組み上、初回の起動が遅いです。これは初回は、ランタイムを作って展開するという処理が行われるからです。
 
-これを避けるため、Lambda関数をあらかじめ準備しておく「プロビジョニング」という設定にできます。プロビジョニングすると、ランタイムが作られてスタンバイ状態になるので、初回の起動の遅さがありません。ただしプロビジョニングしている間ずっとコストがかかるので、「実行回数当たりの課金」という、コストのメリットがなくなります。
+Lambda関数は、必要になったときにLambdaランタイムに展開され、しばらく実行がないとランタイムが解放されるという仕組みのため、初回の実行やしばらく実行されなかったあとの実行が遅いです。
+
+こうした初回の遅さは、プロビジョニングの設定を有効にすることで軽減できます。
+
+プロビジョニングを有効にすると、必要に応じてランタイムを作るのではなく、あらかじめランタイムを作ってスタンバイ状態にしておく挙動になるため、起動の遅さがありません。
+
+ただしプロビジョニングしている間ずっとコストがかかるので、コストのメリットがなくなります。
 </div>
 
-## Lambdaによる画像アップローダーを作る
+## 貧乏案件の「画像アップローダー」
 
-この記事のネタは、「Lambdaによる画像アップローダー」です。実際、これ案件として作ったものを、少し、改良したものです。
+ここまで説明してきたように、「ふだんあまり使われない閑散としたシステム」ほど、Lambdaのコスト削減の効果が大きいです。
 
-- 本人確認のために免許証やマイナンバーなどを集めなければならない
-- 年に数十回（いいところ数百回）しか使わないから、コストをかけられない
-- 本人確認資料をやりとりするので、セキュリティは万全でないとNG
+僕は、過去にそんな案件の開発をしました。次のようなものでした。
 
-こんな要件のシステムです。
+- 本人確認のために、免許証やマイナンバーなどを集めなければならない
+- 個人の確認資料なので、本人および本部以外が見れてしまうことは、絶対NG！
+- 使用するのは、年に数十回
+- それゆえ、開発コストも運用コストもかけられない貧乏案件 w
+
+以下では、どうやって、これを作ったのか、その概要を紹介します。
 
 ### 構成図
 
-構成は、下記の図のようにします。
+本システムの構成図を下記に示します。
 
-- 各自のユーザー名とパスワードは、あらかじめ、DynamoDBに登録しておきます。ファイルをアップロードするときは、このユーザー名とパスワードを入力してもらいます。
-- アップロードされたファイルはS3に保存します。1人1ファイルしか登録できないものとし、複数回アップロードしたときは、単純に上書きします。
+![貧乏案件の画像アップローダー](images/chap-sour23-lambda/fig06.drawio.svg){width=90%}
 
-## 開発コストを下げる工夫
+#### フロントエンドはCloudFront + S3
 
-このシステムは、ほとんど使われることがないという時点で、Lambdaの採用が決まりました。Lambdaなら、稼働しなければコストがかからないからです。
+フロントエンドはHTML（およびCSS）＋JavaScriptで構成。
 
-それ以外に、開発コストも抑えたいという要望がありました。そもそも、年に少ししか使わないのですから、開発コストをかけられないのは当たり前です。ですから、極力、いろんなものを作らないようにします。
+これらは、静的ウェブホスティングを有効にしたS3バケットに配置。その前段にはCloudFrontを配置して、独自ドメインならびにHTTPS化する構成です。
 
-### アップロードされた画像はS3 Browserで確認
+#### バックエンドのLambda関数
 
-アップロードされた画像を見るためのユーザーインターフェースは作らないことにしました。S3 Browserでアクセスすることで、直接、バケットにアップロードされた画像ファイルを参照することにします。
+バックエンドはAPI Gateway + Lambdaで実装<span class="footnote">いまならLambdaのHTTPSエンドポイントを構成すれば、API GatewayなしでLambda単体でも実装できるはず。当時は、HTTPSエンドポイントの機能がなかった。</span>。
 
-### DynamoDBへのユーザー登録はAWS CLIで
+入力された「ID」と「パスワード」をDynamoDBのテーブルと照合。正しければアップロードされたS3バケットに、「ID名.JPG」として保存します。
 
-DynamoDBには、次のようなテーブルで、ユーザー名やパスワードを管理します。これ、登録画面を作るの、結構面倒くさいです（新規作成（C）、更新（U）、一覧（R）、削除（D）のいわゆる、CURDの一連操作に対応しないといけないからです）。
+ここでセキュリティの重要なポイントがあります。
 
-＠表入る
+本システムでは、このLambda関数に対して、アップロード先のS3バケットには「書き込み権限」のみを与え、読み取り権限を与えないことにしました。
 
-そこで簡易な方法として、Excelシートを使うことにしました。
+つまり、Web側からは、どうあがいても、アップロードされたS3バケットの画像を読むことはできないようにすることで、セキュリティを担保しました。
 
-Excelシートにユーザー名とパスワードを記載する列を用意しておき、その右側に、「aws cli ・・・」のようなDynamoDBに登録するAWS CLIのコマンドを書いておきます。
+### 開発コストを抑える工夫
 
-このコマンドをコピペすれば、DynamoDBに登録されるので、この方法で、管理画面を作らないことにしました。
+Lambdaを使うことで運用コストを抑えられますが、開発コストも抑えたいことから、次のようにしました。
 
-＠SQLiteに書いてコピーするのもいいよ、みたいな話を書くかもしれない
+#### IDとパスワードはExcelで管理
 
-## Lambdaって実はカンタン！
+開発コストでバカにならないのが管理ページの開発です。
 
-さて、肝心のLambda関数ですが、作るのは、そんなに難しくないです。
+貧乏案件であり、開発コストをかけられないため、管理ページは「作らない」ことにしました。
 
-いまでこそ、「Serverless Frameworkを使って」みたいな面倒なことになってきましたが、たかだか、アップロードされたファイルを受け取って書き込む」のは、1本のLambda関数で作れるので、AWSマネジメントコンソールから行ってしまえばいいです。
+IDとパスワードは、Excelで管理します。
 
-### UI用を作る
+Excelの特定のセルに、「AWS CLIで、DynamoDBのテーブルを更新するコマンド」を数式で設定しておきます。
 
-まずは、Lambdaより前に、UI用のHTMLフォームを作ります。適当なS3バケットを作って、HTMLを置きます。下記のようなHTMLとしました。
+この列をコマンドラインでコピペして実行することで、ID・パスワードの管理ページなしでの運用としました。
 
-＠HTML入れる（画像だけで引出線にするかも）
+![IDとパスワードはExcelで管理](images/chap-sour23-lambda/fig07.drawio.svg){width=70%}
 
-### 送信用のJavaScriptを作る
+#### アップロードされた画像はマネージメントコンソールで見る
 
-送信用のJavaScriptも作ります。次のような感じです。送信先のLambda関数の場所は、実際は、次に作るLambda関数のエンドポイントに合わせます。
+アップロードされた画像を見られるWebのUIを作るのが理想ですが、セキュリティの設定を間違えたり、脆弱性があったり、また管理者パスワードが漏洩したりとかのことを考えると、かなり厄介です<span class="footnote">いまなら、[Storage Browser for S3](https://aws.amazon.com/jp/s3/features/storage-browser/)を使うことで、簡単で実装できそうですが･･･。</span>。
 
-＠JavaScript概要入れる
+なので、マネジメントコンソールでログインして、「S3の管理画面から、勝手に見てね」ということにしました。
 
-### Lambda関数を作る
+マネジメントコンソールのログインは、MFAを設定できますし、（今回はしませんでしたが）CloudTrailを使った監査もできます。
 
-そして主題となるLambda関数ですね。
+エンドユーザーが、マネジメントコンソールの使用に抵抗がないなら、開発工数を抑えられてGoodです。
 
-まずは、アップロードされた画像を保存するS3バケットを作っておきます。
+### HTML + JavaScriptの構成
 
-＠S3作るキャブ
+この記事はハンズオンではないので詳細は省きますが、どんなコードで実現しているのか興味がある人もいるかと思います。
 
-そして、AWSマネジメントコンソールでLambda関数を作ります。ソースは、次のような感じです。ただ貼り付ければよいです。
+ですので、抜粋したコードを少し、紹介します。
 
-＠リスト入ル
+まずは、HTML + JavaScriptの部分です。
 
+#### 入力フォーム
 
-ポイントとなるのは、セキュリティです。このLambda関数は、S3バケットに保存できるようにする必要があるため、S3バケットへの書き込み権限が必要です。その設定をXXXXで行います。
+次に示す入力フォームを用意しました。画像をアップロードしたときには、JavaScriptで読み込んで、プレビュー表示するようにしています。
 
-このとき、読み取りの権限を付けないのがポイントです。そうすれば、読めない、つまり、アップロードした画像ファイルは、Web側からは参照できないので、安心です。
+![入力フォーム](images/chap-sour23-lambda/webform.png){width=70%}
 
-ここは設計の問題で、ユーザーが「過去にアップロードした画像を確認できる機能」を設けると、これができなくなるので、「アップロードした画像は確認できない。間違えたと思ったら、もう一度操作して、上書きしてね」という方法にすることで、簡単な方法でありながらセキュリティを担保しています。
+HTMLは、次の通り。Bootstrapで組んでます。
 
-### エンドポイントを作る
+```
+<form id="post">
+	<div class="form-group">
+		<label for="uid">ID</label>
+		<input type="text" class="form-control" id="uid">
+	</div>
+	<div class="form-group">
+		<label for="pwd">パスワード</label>
+		<input type="password" class="form-control" id="pwd">
+	</div>
+	<div class="form-group">
+		<label for="image01">証明書画像</label>
+		<input type="file" class="form-control" 
+			id="image01" onchange="imageload();">
+		<img id='preview' width="100%">
+	</div>
+	<button id="submit" class="btn btn-default" 
+		onclick="onSubmit();return false;">送信</button>
+</form>
+```
 
-＠エンドポイントを作る方法について
+#### 画像がアップロードされたとき
 
-### CloudFrontなどを構成して完成！
+画像がアップロードされたときのJavaScriptのコードは次の通りです。
 
-以上で終わりです。あとは、S3の手前にCloudFrontを構成して、HTTPS化するなどします。
+ReactやVue.jsを使っている人から見たら、卒倒モノの「jQuery」。しかも、HTML内に```<script>```でベタ書き w。
+
+貧乏案件なので、ReactやVue.jsの環境整えてる工数すらとれないんですよ。
+
+短いコードですが、アップロードされた画像を```img```要素に設定してプレビューできるようになります。
+
+```
+<script language="javascript">
+function imageload() {
+	const file = $('#image01')[0].files[0];
+
+	if (!file.type.match(/^image\/jpe?g$/)){
+		alert("対応するファイルはJPEG形式のみです。");
+		return;
+	}
+
+	const imgreader = new FileReader();
+	imgreader.onload = function(event) {
+		const src =  imgreader.result;
+		$('#preview').attr('src', src);
+	};
+	imgreader.readAsDataURL(file);
+};
+</script>
+```
+
+#### Lambda（API Gateway）へのポスト
+
+［送信］ボタンがクリックされたときは、すぐあとに説明するLambda関数に、フォームの内容を渡します。
+
+JSONのデータを作って、それを送っているだけです。
+
+```
+<script language="javascript">
+function onSubmit() {
+    const uid = $("#uid").val();
+    const pwd = $("#pwd").val();
+
+	// uidとpwdの未入力チェックのコード略
+
+	const img = new Image();
+	const file = $('#image01')[0].files[0];
+
+	// ファイルの未アップロードおよび形式チェックのコード略
+
+	var reader = new FileReader();
+	reader.onload = function(event) {
+		const src = event.target.result;
+		// POSTURLはAPI Gatewayのエンドポイント
+    	const POSTURL = "https://XXXXXX.execute-api.･･･略･･･";
+    	const data = {
+			uid : uid,
+			pwd : pwd,
+    		image01:src.split(',')[1]
+    	};
+
+		$.ajax({
+			type : "POST",
+			url : POSTURL,
+			crossDomain: true,
+			data : JSON.stringify(data),
+			contentType : "application/json",
+			dataType: "json",
+			headers: { }
+		}).done(function(json_data) {
+			// 成功（コード略）
+			alert('upload ok');
+		}).fail(function(json_data) {
+			// エラー（コード略）
+			alert(json_data.responseText);
+		});
+	};
+	reader.readAsDataURL(file);
+}
+</script>
+```
+
+### Lambdaの構成
+
+そして次に、処理を受け取るLambda関数のほうです。
+
+JavaScriptからは、下記の書式で送っているので、これを読み込んで処理します。
+
+```
+{
+  uid : ユーザーID,
+  pwd : パスワード,
+  image01 : 画像のBase64形式データ
+}
+```
+
+Lambda関数は、Node.jsやPythonなどで書けますが、今回は、Node.jsを使っています。
+
+リストは、下記の通りです。
+
+```
+'use strict';
+const tablename = 'userlist';
+
+const doc = require('dynamodb-doc');
+const dynamo = new doc.DynamoDB();
+
+const aws = require('aws-sdk');
+const s3 = new aws.S3({ apiVersion: '2006-03-01', region: 'ap-northeast-1' });
+const BUCKET_NAME = 'my-upload-bucket-name';
+const DIRECTORY_PATH = 'images/'
+
+exports.handler = (event, context, callback) => {
+    console.log('Received event:', JSON.stringify(event, null, 2));
+    function done(err, res) {
+        callback(null, {
+            statusCode: (err  ? '400' : '200'),
+            body: (err ? err.message : JSON.stringify(res)),
+            headers: {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin' :'入力フォームのサイトのURL',
+                'Access-Control-Allow-Methods' : 'GET,POST,HEAD,OPTIONS',
+                'Access-Control-Allow-Headers' :  
+                    'Origin, X-Requested-With, Content-Type, Accept'
+            }
+        });
+    }
+
+    switch (event.httpMethod) {
+        case 'POST':
+            const jsondata = JSON.parse(event.body);
+            if (!jsondata) {
+                done(new Error('送信データ形式が正しくありません'));
+                return;
+            }
+            if (!jsondata.uid) {
+                done(new Error('ユーザーIDが入力されていません'));
+                return;
+            }
+            
+            if (!jsondata.pwd) {
+                done(new Error('パスワードが入力されていません'));
+                return;
+            }
+            
+            const params = {
+                TableName: tablename,
+                KeyConditionExpression:
+                    'uid = :UID',
+                FilterExpression:
+                    'pwd = :PWD',
+                ExpressionAttributeValues: {
+                    ':UID' : jsondata.uid,
+                    ':PWD' : jsondata.pwd
+                }                
+            };
+            dynamo.query(params, function(err, res) {
+                if (err) {
+                    done(new Error('DBアクセスエラーです。'));
+                    return;
+                }
+                if (res.Count === 0) {
+                    done(new Error(
+                      '該当のユーザーが見つからないかパスワードが正しくありません。'));
+                    return;
+                }
+                
+                // アクセスOK。アップロードされた画像のアップロード
+                const filename = res.Items[0].uid.trim() + '.JPG';
+                const imgdata = new Buffer(jsondata.image01, 'base64');
+                
+                const s3params = {
+                	Bucket: BUCKET_NAME, Key: DIRECTORY_PATH + filename, 
+                	ContentType: 'image/jpeg', Body: imgdata};
+                s3.putObject(s3params, function(err, data) {
+                    if (err) {
+                        done(new Error('ファイルの書き込みに失敗しました'));
+                    } else {
+                        // 成功
+                        done(null, {result : true});
+                    }
+                });
+            });
+            break;
+        case 'OPTIONS' :
+            done(null);
+            break;
+        default:
+            done(new Error('サポートされていない操作です'));
+            break;
+    }
+};
+```
+
+このファイル1本しかありません。
+
+ですから、Serverless Frameworkなどを持ち出すと大げさなので、マネージメントコンソールのLambdaの設定画面から、直接、ソースをアップロードする構成で済ませています。
+
+正直、小さなプログラムなら、これで十分です。
+
+最近はCI/CDとかもあり、Visual Studio Codeを使って開発するなども含め、なんだか開発が複雑怪奇になってきましたが、小さいものならマネジメントコンソールで登録すればいいんです！　難しいことは考えなくて大丈夫です。
+
+![マネジメントコンソールで手入力すればOK！　開発ツール要らない](images/chap-sour23-lambda/lambda-console.png){width=80%}
+
+このソースですが、ポイントが2つあります。
+
+#### 同一生成元ポリシー（Same-Origin Policy）回避
+
+構成図を見るとわかりますが、入力フォームのHTMLはCloudFrontから配信されているのに対して、送信先（POST先）はAPI Gatewayです。
+
+これはブラウザの「同一生成元ポリシー」（Same-Origin Policy）に違反するので、セキュリティ上、送信できません。
+
+これを回避するため、```Access-Control-Allow-Origin```ヘッダを返すことが必要です。
+
+忘れると、「アクセスできないなぁ」というように、悩むことになるので注意してください。
+
+```
+callback(null, {
+    statusCode: (err  ? '400' : '200'),
+    body: (err ? err.message : JSON.stringify(res)),
+    headers: {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin' :'入力フォームのサイトのURL',
+        'Access-Control-Allow-Methods' : 'GET,POST,HEAD,OPTIONS',
+        'Access-Control-Allow-Headers' : 
+        	'Origin, X-Requested-With, Content-Type, Accept'
+    }
+});
+```
+
+#### プログラミングはAWS SDKのライブラリを使う
+
+DynamoDBのテーブルにアクセスしたり、S3バケットに書き込んだりという操作は、AWSのAPIを呼び出す操作であり、ここは、Lambdaと関係ないです。
+
+言い換えると、**「Lambdaのリファレンスを見ても、何も見つからない」**です。
+
+Node.jsであれば、「AWS SDK for JavaScript」（[https://aws.amazon.com/jp/sdk-for-javascript/](https://aws.amazon.com/jp/sdk-for-javascript/)）を使います。
+
+プログラミングの際には、こうしたSDKのリファレンスを参照します<span class="footnote">使用するライブラリは、言語によって異なります。たとえばPythonの場合は、「Boto3」（[https://aws.amazon.com/jp/sdk-for-python/](https://aws.amazon.com/jp/sdk-for-python/)］）を使います。</span>。
 
 ## まとめ
 
-大きな規模のサーバーレス開発だと、Visual Studio Codeを使ってどうこう、というようになりますが、こうした小さなプログラムなら、AWSマネジメントコンソールで実現できます。
+この記事では「あまり使われないシステムをLambdaで作るといいよ！」という話をしました。
 
-昔のPerlとかPHPとかで書いていた「小さなCGI」のプログラムは、簡単にLambdaで実現できます。「掲示板」「チャット」「お問い合わせフォーム」など、「小さくて、閑散としたシステム」は、実は、Lambdaが、とっても向いています。
+その昔、PerlやPHPで書いていた「小さなCGI」は、簡単にLambdaで実現できます。
+
+「掲示板」「チャット」「お問い合わせフォーム」など、「小さくて、閑散としたシステム」は、実は、Lambdaが、とっても向いています。
 
 是非、Lambdaでいろいろ遊んでみてください！
 
-　
+<br>
+
+そしてLambdaに興味を持ったら、是非、インプレス発刊の書籍「Lambda実践ガイド」を読んでみてください。いまは無き「Cloud9」がベースの本ですが、基本はあまり変わらないので、参考になるところは多いかと思います（そのうち、Visual Studio Codeでの内容に改訂したいなぁ･･･）。
+
+#### 著者紹介
+---
 
 <div class="author-profile">
-    <img src="images/sour23.jpg">
+    <img src="images/chap-sour23-lambda/sour23.jpg">
     <div>
         <div>
             <b>大澤文孝</b>
             <a href="https://twitter.com/sour23">X@sour23</a>
         </div>
         <div>
-            サークル名：モウフカブール
+            サークル名：<a href="https://mofukabur.com/">モウフカブール</a>
         </div>
     </div>
 </div>

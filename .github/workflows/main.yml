@@ -35,12 +35,12 @@ jobs:
           fc-cache -fv
           fc-list | grep -i "harano" || true
           fc-list | grep -i "biz" || true
-
+      # --timeout 180000でビルド3分まで。デフォルト2分。
       - name: build book for screen
-        run: bun run build
+        run: bun run build --timeout 180000
 
       - name: build book for print
-        run: bun run build:print
+        run: bun run build:print --timeout 180000
 
       # PDFのアップロード
       - name: Upload PDF artifacts

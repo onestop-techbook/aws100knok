@@ -172,3 +172,16 @@ section:has(> h6:first-child) {
 section > :is(h1, h2, h3, h4, h5, h6):first-child + * {
   counter-reset: vs-counter-sections;
 }
+
+a.chap-ref::after {
+  content: '§' target-counter(attr(href url), vs-counter-chapter);
+  display: var(--vs-section--call-display);
+}
+a.sec-ref-h2::after {
+  content: '§' target-counter(attr(href url), vs-counter-chapter) '.' target-counter(attr(href url),vs-counter-sec-h2);
+  display: var(--vs-section--call-display);
+}
+a.sec-ref-h3::after {
+  content: '§' target-counter(attr(href url), vs-counter-chapter) '.' target-counter(attr(href url),vs-counter-sec-h2) '.' target-counter(attr(href url),vs-counter-sec-h3);
+  display: var(--vs-section--call-display);
+}
