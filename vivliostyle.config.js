@@ -118,6 +118,7 @@ const def = {
   	"chap-harukotanabe-jaws_sainokuni.md",
     "chap-kazzpapa3-jawsug.md",
     "chap-p0n-s3.md",
+    "chap-ashirasu-gameday.md",
 	"chap-hirosys-support.md",
   	"chap-hibiki-iic.md",
   	"chap-whitebird_sp-s3-design-principles.md",
