@@ -14,7 +14,9 @@ AWSのアーキテクチャ図を作るとき、パワーポイントやExcelの
 ## ブラウザ版Draw.ioでAWSのアーキテクチャ図が作れる！
 ブラウザでDraw.io編集画面を開くことができ、そこでアーキテクチャ図を作成することができます。特定のアプリをインストールする手間がないため、すぐに利用することができます。
 
-ブラウザ版Draw.io：https://app.diagrams.net/?splash=0&libs=aws4  
+ブラウザ版Draw.io：<span class="footnote">https://app.diagrams.net/?splash=0&libs=aws4</span>
+
+
 <img src="images/chap-naosan-devtools/drawio_01_brows.png" width="60%">  
 
 
@@ -26,8 +28,17 @@ VSCodeの拡張機能としてもDraw.ioのエディタが提供されていま�
 <img src="images/chap-naosan-devtools/drawio_02_extends.png" width="40%">  
 ↓Draw.io IntegrationでAWSのアイコンを使えるようにする  
 <img src="images/chap-naosan-devtools/drawio_03_extends.png" width="60%">  
-
-
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
 #### 著者紹介
 
 ---

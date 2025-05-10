@@ -13,7 +13,7 @@ class: chapter
 近年では生成AIを利用して調べごとやコード生成をすることが多くなってきました。生成AIツールの多くはVSCodeなどのIDEとは別のアプリやブラウザとして提供されており、別の画面やIDEを閉じてそのツールの画面を開く必要があります。VSCodeの拡張機能の一つとして提供されているAmazon Q Developerを利用すればIDEを開いたままで調べごとやコード生成が行えます。  
 
 ↓VSCode内でAmazonQを使って調べごとをしている例  
-<img src="images/chap-naosan-devtools/amazonq_01_vscode.png" width="50%">
+<img src="images/chap-naosan-devtools/amazonq_01_vscode.png" width="50%">  
 
 ## ローカルPCに保存されているファイルの操作なども日本語で依頼可能！
 ローカルPCにあるファイルを表示したり削除したりという操作もAmazonQを使用することで実現可能です。VSCodeを閉じることなくAmazonQを通じてローカルPC内のファイルが操作できることに慣れれば、作業効率化が図れるかもしれません。  
