@@ -46,8 +46,8 @@ AWSパートナー企業の場合であれば資格取得数はティアに影�
     <div>
         <div>
             <b>戸井田 理 </b><br>
-            Twitter､Instagram､Misskey.io<a>@ryder472</a><br>
-            Zenn<a>https://zenn.dev/ryder472</a><br>
+            Twitter､Instagram､Misskey.io: <a>@ryder472</a><br>
+            Zenn: <a>https://zenn.dev/ryder472</a><br>
         </div>
     </div>
 </div>
