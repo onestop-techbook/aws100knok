@@ -51,7 +51,7 @@ class: chapter
             <a href="https://x.com/mob_engineer">@mob_engineer</a>
         </div>
         <div>
-            サークル名：JAWS-UG 彩の国埼玉支部
+            JAWS-UG 彩の国埼玉支部
         </div>
     </div>
 </div>

@@ -30,7 +30,7 @@ IICを利用すると「このユーザーにはこのアカウントでこの�
 -  **どのAWSアカウントに対して**
 -  **どんな権限を付与するか（＝許可セットの中身）**
 
-![](images/chap-hibiki-iic/iic-image.png)
+![](images/chap-hibiki-iic/iic-image.png){width=60%}
 <!-- ここに「許可セットの構成イメージ」画像を挿入予定: ![許可セットの構成イメージ](images/chap-hibiki-iic/iic_image.png) -->
 
 このように許可セットを活用することで、各IICユーザーやグループに、どのAWSアカウントでどんな権限を与えるかを柔軟に制御できます。

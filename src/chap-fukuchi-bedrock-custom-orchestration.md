@@ -8,8 +8,6 @@ class: chapter
 福地 開(ふくち)
 </div>
 
-## はじめに
-
 ふくちと申します。
 2025年にAi Engineering領域のAWS Community Buildersに選出していただきました。
 
@@ -43,6 +41,7 @@ ReActとは、LLMを用いて推論と行動を同時に行うための手法で
 
 Bedrockエージェントでも同じことが行われています。
 LLMが各ステップを推論し、そのステップごとに収集された情報に基づいて次のアクションを決定する、という反復的な意思決定プロセスです。
+
 <img src="images/chap-fukuchi-bedrock/react-agent.png">
 
 この手法は、各ステップごとに推論が行われます。

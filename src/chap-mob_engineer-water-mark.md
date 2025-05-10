@@ -8,7 +8,6 @@ class: chapter
 奥田 雅基 @mob_engineer
 </div>
 
-## はじめに
 
 近年の生成AIブーム凄いですね！！
 
@@ -48,7 +47,7 @@ class: chapter
             <a href="https://x.com/mob_engineer">@mob_engineer</a>
         </div>
         <div>
-            サークル名：JAWS-UG 彩の国埼玉支部
+            JAWS-UG 彩の国埼玉支部
         </div>
     </div>
 </div>

@@ -68,7 +68,7 @@ Amazon Q Developer in chat applicationsで数ステップの設定を行うだ�
             <a href="https://twitter.com/shin_fukatsu">X@shin_fukatsu</a>
         </div>
         <div>
-            サークル名：JAWS-UG 彩の国埼玉支部
+            JAWS-UG 彩の国埼玉支部
         </div>
     </div>
 </div>

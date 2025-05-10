@@ -11,12 +11,14 @@ class: chapter
 #### 注意！
 この記事は日本時間2025年5月6日にプレビュー版が発表された後に記載しています。
 
-プレビュー版発表記事：https://aws.amazon.com/jp/about-aws/whats-new/2025/05/amazon-q-developer-integration-github-preview-available/
+プレビュー版発表記事：
 
-## Amazon Q Developer のコラボ
+https://aws.amazon.com/jp/about-aws/whats-new/2025/05/amazon-q-developer-integration-github-preview-available/
+
+#### Amazon Q Developer のコラボ
 これまでAmazonQDeveloperはAWS内以外でもVSCodeの拡張機能として利用できたりと、利用できるシーンが増えていました。2025年5月5日に公式ページに公開された記事にはGitHub上でAmazonQDeveloperが使えるようになったことが発表されました。これまでGitHubCopilotがありましたがAWSさんもGitHubさんとコラボを開始しました。
 
-## コードレビューや修正、プルリクエストの作成はAmazonQさんにお任せ！？
+#### コードレビューや修正、プルリクエストの作成はAmazonQさんにお任せ！？
 プレビュー版なので今後どのような形でGAになるかはわかりませんが、GitHub上でコードレビューやバグの修正やレビュー結果の反映、プルリクエストの作成までをAmazonQさんにお願いしてやってくれるので、これまで以上に開発の効率化が進められそうです。
 
 

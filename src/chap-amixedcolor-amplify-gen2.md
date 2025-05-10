@@ -7,8 +7,7 @@ class: chapter
 <div class="flush-right">
 保 龍児（エイミ/amixedcolor）
 </div>
-
-## はじめに
+s
 
 筆者はちょうど今月でAWS歴1年たったばかりの新参者ですが、その1年の中で一番多く扱い、一番大きなシステムを組み上げたのはAmplify Gen2を使ったものでした。
 Amplify Gen2はGen1と比べても多くのことが変わりましたが、その中から推しポイントを3つ紹介します。
@@ -54,6 +53,7 @@ GraphQLやAppSync、DynamoDBといった普段使い慣れない方も多いサ�
 ストレージは内部的にはS3を使用しており、細かな権限設定が可能です。Amplify Auth（Cognito）で設定した、その人がログインしているグループ別にできたり、Owner（そのオブジェクトの所有者）のみが扱えるようにしたり、同じオブジェクト・ファイルパスに対して複数の権限をRead（Get＆List）, Write, Delete, Get, Listの粒度で制限できます。一部、グループに所属する人に対してOwnerの認可を重ねがけできない問題があり、GitHub Issueになっていますが、私がそこで代替案を提示しています。実際に私自身活用している代替案ですが、もし実装に疑問あればX（@amixedcolor）でDMでも、そのIssue内でメンションでも大丈夫です。
 
 Issue内での提案はこちら
+
 https://github.com/aws-amplify/amplify-backend/issues/1771#issuecomment-2673850655
 
 また、Amplify Storageにおいても複数のUIがAmplify UIによって定義されています。例えばFile Uploadのコンポーネントを使えば、簡単に指定したパスへファイルをアップロードすることが可能です。

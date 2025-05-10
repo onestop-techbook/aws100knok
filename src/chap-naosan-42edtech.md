@@ -23,17 +23,8 @@ Education-JAWS：<span class="footnote">https://education-jaws.connpass.com/</sp
 
 
 教育における生成系 AI: 授業コンテンツを活用した AI ソリューションの構築：<span class="footnote">https://aws.amazon.com/jp/blogs/news/publicsector-generative-ai-education-building-ai-solutions-using-course-lecture-content/</span>
-　  
-　  
-　  
-　  
-　  
-　  
-　  
-　  
-　  
-　  
-　  
+
+<hr class="page-wrap" />
 
 #### 著者紹介
 

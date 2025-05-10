@@ -8,7 +8,7 @@ class: chapter
 奥田 雅基 @mob_engineer
 </div>
 
-## 前置き
+
 
 AWSを触っていくなかで**とりあえず、AWSサービスを組み合わせてアプリケーションを開発してみたい**といった想いは誰しもが抱えていると思います。
 
@@ -76,7 +76,7 @@ Skill BuilderやユーザーガイドにもAWS Resilience Hubについて分か�
             <a href="https://x.com/mob_engineer">@mob_engineer</a>
         </div>
         <div>
-            サークル名：JAWS-UG 彩の国埼玉支部
+            JAWS-UG 彩の国埼玉支部
         </div>
     </div>
 </div>

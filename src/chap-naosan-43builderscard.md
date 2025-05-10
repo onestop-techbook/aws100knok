@@ -13,7 +13,8 @@ class: chapter
 ## 遊びながらAWSのアーキテクチャやベストプラクティスが学べる
 AWS BuilderCards(ビルダーズカード)を遊ぶことでAWSについて学ぶことができます。2人～4人で遊ぶカードゲームで、AWSサービスが書かれたカードを組み合わせることで最終的なWell-Architectedのポイントが高いプレイヤーが勝利するルールになっています。AWSサービスの特徴や組み合わせ方、それによって生じるベストプラクティスの考え方について学べる、遊びと学びが融合したカードゲームになっています。  
 
-AWS BuilderCardsの紹介ページ：https://aws.amazon.com/jp/builders-flash/202405/japanese-builder-cards/
+AWS BuilderCardsの紹介ページ：
+https://aws.amazon.com/jp/builders-flash/202405/japanese-builder-cards/
 
 
 ## どこで遊べる？
@@ -22,21 +23,12 @@ AWS BuilderCardsの紹介ページ：https://aws.amazon.com/jp/builders-flash/20
 ## エディションの違いに注意
 2024年末に2ndエディションに変更され、ルールが少し変わったようです。ルールの把握はエディションの違いにも注意しましょう。  
 
-1st Editionからの変更点：https://github.com/jaws-ug/AWS-BuilderCards-Japanese/blob/releaseNotes-202411/ReleaseNote_2ndEdition.md  
-英語版ルール：https://aws.amazon.com/jp/gametech/buildercards/?tag=kwim01-20
+1st Editionからの変更点：
+https://github.com/jaws-ug/AWS-BuilderCards-Japanese/blob/releaseNotes-202411/ReleaseNote_2ndEdition.md  
+英語版ルール：
+https://aws.amazon.com/jp/gametech/buildercards/?tag=kwim01-20
 
-
-　  
-　  
-　  
-　  
-　  
-　  
-　  
-　  
-　  
-　  
-　  
+<hr class="page-wrap" />
 
 #### 著者紹介
 
