@@ -58,8 +58,8 @@ GuardDutyは、あくまで脅威を「検知」する機能です。修復や�
     <div>
         <div>
             <b>戸井田 理 </b><br>
-            Twitter､Instagram､Misskey.io<a>@ryder472</a><br>
-            Zenn<a>https://zenn.dev/ryder472</a><br>
+            Twitter､Instagram､Misskey.io: <a>@ryder472</a><br>
+            Zenn: <a>https://zenn.dev/ryder472</a><br>
         </div>
     </div>
 </div>
