@@ -12,8 +12,6 @@ class: chapter
 
 シンプルな名刺で、名前(ハンドル)、アイコン、SNSのID(X(旧Twitter)など)、興味ある内容などを並べるだけで充分です。
 
- <hr class="page-wrap" />
-
 ### 本業名刺があるじゃない
 本業名刺があっても、SNSのIDが書いてないですよね。その結果、「xxさん、いつもSlackでお世話になってます」となるのが難しいです。もちろん対面では可能ですが、家に帰ってから、どの人だっけ…となりますよね。
 
@@ -25,6 +23,8 @@ class: chapter
 テンプレートも用意されていますし、印刷所によってはWordやPowerPoint用のテンプレート<span class="footnote">ラクスル　名刺の印刷テンプレート　https://raksul.com/template/businesscard/</span>を用意しているところもあります。Wordやパワポなら、お高いIllustratorがなくても作れます。
 
 ![名刺の最低限の情報](images/chap-oyakata-greetingcard/meishi.png){scale=30%}
+
+アイコン、名前、SNSのID,興味ある事などを適当に並べるだけでも、立派な名刺です。
 
 デザインに悩む話ではなく、とりあえず持っていること、勉強会/懇親会で渡せることが重要です。
 

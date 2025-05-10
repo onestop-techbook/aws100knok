@@ -36,7 +36,7 @@ AWS 各サービスの一要素にクローズアップしたハンズオンを�
 
 `aws` で AWS プログラムを呼び出します。それに続けて トップレベルコマンドに指定した AWS サービスに対し、定義されているサブコマンドで操作内容を指定します。これにオプションやパラメータを添えて実行することで対象の要素に対して操作（作成、参照、更新、削除のいずれか）ができます。
 
-> ## Command structure
+> Command structure<span class="footnote">出典：<a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-commandstructure.html">Command structure in the AWS CLI ( https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-commandstructure.html )</a> より抜粋</span>
 > 
 > The AWS CLI uses a multipart structure on the command line that must be specified in this order:
 > 
@@ -56,7 +56,6 @@ AWS 各サービスの一要素にクローズアップしたハンズオンを�
 > 3. 実行する操作を指定するサブコマンド。
 > 4. 操作に必要な一般的なAWS CLIオプションまたはパラメータ。最初の3つの部分に続く限り、任意の順序で指定できる。排他パラメーターを複数回指定した場合は、最後の値のみが適用される。
 
-<figure><figcaption>出典：<a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-commandstructure.html">Command structure in the AWS CLI ( https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-commandstructure.html )</a> より抜粋</figcaption></figure>
 
 ## AWS CLI の推しポイント
 

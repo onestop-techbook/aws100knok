@@ -8,7 +8,7 @@ class: chapter
 保 龍児（エイミ/amixedcolor）
 </div>
 
-## はじめに
+
 
 筆者はちょうど今月でAWS歴1年たったばかりの新参者ですが、一番最初に作成したAWS関連のシステムでAWS SAMを用いていました。
 右も左も分からない自分にとって、すぐにHello Worldできて、簡単にサーバーレスアプリケーションを作れるSAMは心強い味方でした。
@@ -90,6 +90,7 @@ https://speakerdeck.com/amixedcolor/bu-yao-narisosuwozi-dong-deding-qi-de-nizhen
 LambdaでSDKを呼び出し、EventBridgeでLambdaを規則的に呼び出すことで、非常に多くの処理を自動化できると考えています。
 
 公式のリソース一覧はこちら
+
 https://docs.aws.amazon.com/ja_jp/serverlessrepo/latest/devguide/list-supported-resources.html
 
 ## 推しポイント３：CloudFormationでリソースを辿れる

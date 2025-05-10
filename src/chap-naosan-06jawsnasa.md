@@ -8,7 +8,7 @@ class: chapter
 山本 直弥（Nao）
 </div>
 
-## はじめに
+
 JAWS-UG朝会の運営メンバー！・・・ではない私ですが、朝会にはよく参加させていただいているのでその魅力を勝手に発信します。
 
 JAWS-UG朝会のConnpassページ：https://jawsug-asa.connpass.com/
