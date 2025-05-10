@@ -2,7 +2,7 @@
 class: chapter
 ---
 
-# Amazon Pollyを推したい！！
+# リアルな音声を簡単に生成できる！Amazon Pollyを推したい！！
 
 <div class="flush-right">
 大塚 雄仁 @zzzzico
@@ -15,6 +15,7 @@ Amazon Pollyは、AIを活用した高度な音声合成技術を提供し、文
 
 以下、詳細な推しポイントを紹介します！
 
+## Amazon Pollyの推しポイント！
 ### 推しポイント① 多言語対応
 Amazon Pollyは、30以上の言語と多様なアクセントに対応しており、グローバルなコンテンツ制作が容易にできます。
 
@@ -61,7 +62,7 @@ SSMLの主な機能
 > 参照）
 > https://docs.aws.amazon.com/ja_jp/polly/latest/dg/supportedtags.html
 
-## Tips
+## Amazon PollyのTips！
 ### 音声と字幕を組み合わせる
 Pollyの音声と字幕を活用することで、動画コンテンツのアクセシビリティを向上させられます。
 
