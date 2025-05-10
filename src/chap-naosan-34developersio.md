@@ -19,11 +19,22 @@ DevelopersIO：https://dev.classmethod.jp/
 
 ## DevelopersIOの著者はXでフォローしておこう！
 DevelopersIOの新規記事が投稿された際に、著者がXで記事投稿のお知らせをポストしてくれることが多いです。最新情報をすぐにキャッチアップできるようにDevelopersIOの著者をXでフォローしておくことをオススメします。  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
 
 
 
 
-### 著者紹介
+#### 著者紹介
 
 ---
 
