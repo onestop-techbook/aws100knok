@@ -62,6 +62,7 @@ const def = {
   	"chap-whitebird_sp-s3-design-principles.md",
 	"chap-otsukit-communicationtest.md",
 	"chap-fukuchi-bedrock-custom-orchestration.md",
+    "chap-aoto-appsig.md",
 
 	"part-2-usage.md",					//相対的に上級向けっぽく
     "chap-sour23-lambda.md",
