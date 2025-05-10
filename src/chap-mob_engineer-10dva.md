@@ -10,9 +10,10 @@ class: chapter
 
 <img src="images/chap-mob_engineer-certificates/aws-certified-developer-associate.png" width="40%">
 
-## 前置き
+
 
 **AWS Certified Data Engineer - Associate**から続いて第10弾となります。
+
 本シリーズの最後として**AWS Certified Developer - Associate**について執筆したいと思います。
 
 ## どういった資格なのか？
