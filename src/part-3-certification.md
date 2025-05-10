@@ -1,5 +1,11 @@
 ---
-class: part
+class: preface
 ---
 
-<h1>認証資格だって推しポイント</h1>
+# 認証資格だって推しポイント
+
+hoge fuga
+
+<div class="flush-right">
+だれそれ
+</div>

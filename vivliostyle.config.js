@@ -6,7 +6,7 @@ const def = {
   //デフォルト２分でタイムアウトしちゃうので、ローカルコンパイル対応のため追加
   timeout: 300000,   // 5 分
   
-  title: "vivliostyle-sample", // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
+  title: "AWS100kno", // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
   author: "oyakata <oyakata2438@gmail.com>", // default to `author` in `package.json` or undefined.
   language: "ja", // default to undefined.
   size: "JIS-B5", // JIS-B5: 教科書サイズ、A5: 最近流行りの小さいサイズの技術書
@@ -138,6 +138,7 @@ const def = {
 	"chap-otsukit-reinvent.md",
 	"chap-siba-operation.md",
 	"chap-fukuchi-bedrock-custom-orchestration.md",
+	"chap-nyagoro-AWS-S3.md",
 
     // 後書き
     "90-postscript.md",
