@@ -14,12 +14,8 @@ class: chapter
 EdTechとは教育(Education)と技術(Technology)を組合せて造語です。一昔前だとeラーニングという言葉で動画の講義映像やインターネットを通じた講義などが行われていました。時が経つごとに技術が発展し、昔よりも様々な形でEdTechが提供されています。AWSサービスを使ったEdTechもAWS本体やコミュニティを跨いで積極的に行われています。 
 
 AWS Cloud for EdTech：<span class="footnote">https://aws.amazon.com/jp/education/ed-tech/</span>
-
-
-## 教育に関する専門支部。Education-JAWSにも注目！
-
-
 Education-JAWS：<span class="footnote">https://education-jaws.connpass.com/</span>
+
 
 
 ## AWSの生成AIを利用したEdTech！
