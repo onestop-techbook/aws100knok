@@ -139,6 +139,7 @@ const def = {
 	"chap-siba-operation.md",
 	"chap-fukuchi-bedrock-custom-orchestration.md",
 	"chap-nyagoro-AWS-S3.md",
+	"chap-takano-gizyutudouzin.md",
 
     // 後書き
     "90-postscript.md",
