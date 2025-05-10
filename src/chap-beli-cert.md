@@ -6,7 +6,6 @@ class: chapter
 
 <div class="flush-right">Beli @philosophum</div>
 
-## はじめに
 
 皆さんは、認定資格の勉強はどのようにされていますか。
 中には模擬問題をひたすら解いて、選択肢と正解を記憶するようなスタイルの人もいると思います。

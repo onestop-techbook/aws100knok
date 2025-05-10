@@ -10,9 +10,9 @@ class: chapter
 
 <img src="images/chap-mob_engineer-certificates/aws-certified-advanced-networking-specialty.png" width="40%">
 
-## 前置き
 
 **AWS Certified Security - Specialty**から続いて第6弾となります。
+
 今回は**AWS Certified Advanced Networking - Specialty**について執筆したいと思います。
 
 ## どういった資格なのか？
@@ -49,7 +49,7 @@ class: chapter
             <a href="https://x.com/mob_engineer">@mob_engineer</a>
         </div>
         <div>
-            サークル名：JAWS-UG 彩の国埼玉支部
+            JAWS-UG 彩の国埼玉支部
         </div>
     </div>
 </div>

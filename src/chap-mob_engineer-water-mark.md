@@ -8,12 +8,10 @@ class: chapter
 奥田 雅基 @mob_engineer
 </div>
 
-## はじめに
 
 近年の生成AIブーム凄いですね！！
-特にAmazon Bedrockは多くのAWS利用者の間で活用されている印象を持っています。
 
-そのうえで、生成AIから生成した画像がどうか判別するための機能がBedrock内にもあるので紹介してみたいと思います。
+特にAmazon Bedrockは多くのAWS利用者の間で活用されている印象を持っています。そのうえで、生成AIから生成した画像がどうか判別するための機能がBedrock内にもあるので紹介してみたいと思います。
 
 ## ウォーターマーク検出とは
 
@@ -49,7 +47,7 @@ class: chapter
             <a href="https://x.com/mob_engineer">@mob_engineer</a>
         </div>
         <div>
-            サークル名：JAWS-UG 彩の国埼玉支部
+            JAWS-UG 彩の国埼玉支部
         </div>
     </div>
 </div>

@@ -8,7 +8,6 @@ class: chapter
 山本 直弥（Nao）
 </div>
 
-## はじめに
 
 2025年にDevTools領域のAWS Community Buildersに選出されました。
 そこから、CDKをはじめとするDevToolsの良さを伝えるためにLT会の登壇やブログで情報発信を行っています。
@@ -24,6 +23,8 @@ CloudFormationテンプレート内のリソース定義が"カード"と呼ば�
 
 
 <img src="images/chap-naosan-devtools/ISC_01_toha.png">
+
+<hr class="page-wrap" />
 
 ## 推しポイント１：既存のCloudFormationテンプレートを構成図のように視覚化できる
 

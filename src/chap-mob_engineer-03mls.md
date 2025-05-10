@@ -10,9 +10,9 @@ class: chapter
 
 <img src="images/chap-mob_engineer-certificates/aws-certified-machine-learning-specialty.png" width="40%">
 
-## 前置き
 
 **AWS Certified AI Practitioner**から続いて第3弾となります。
+
 今回はAWS専門資格の一つである**AWS Certified Machine Learning - Specialty**について執筆したいと思います。
 
 ## どういった資格なのか？
@@ -47,7 +47,7 @@ AWSのMLサービスをうまく利用するために**どのような知識が�
             <a href="https://x.com/mob_engineer">@mob_engineer</a>
         </div>
         <div>
-            サークル名：JAWS-UG 彩の国埼玉支部
+            JAWS-UG 彩の国埼玉支部
         </div>
     </div>
 </div>

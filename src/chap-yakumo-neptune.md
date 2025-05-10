@@ -12,7 +12,7 @@ class: chapter
 まず、Amazon Neptuneに利用されているグラフデータベースについて簡単に触れておきます。グラフデータベースは、ノード（点）とエッジ（線）で構成されたデータ構造を扱います。ノードは「人」「商品」「場所」といった実体を、エッジはそれらの「つながり」「関係性」を表現します。
 例えば下記のようなグラフだと、
 
-<img src="images/chap-yakumo-neptune/graphdb.png">
+<img src="images/chap-yakumo-neptune/graphdb.png" width="60%">
 
 * 「AさんはBさんの友達」
 * 「Aさんから見て、友達の友達は？」
@@ -69,7 +69,7 @@ Amazon Neptuneは、AWSが提供する**フルマネージド型のグラフデ�
 ### 同じグラフに異なるクエリ言語でアクセスしてみる
 たとえば、次のような「Aさんの友人」を取得するクエリは、次のように表現できます。
 
-<img src="images/chap-yakumo-neptune/graphexample.png">
+<img src="images/chap-yakumo-neptune/graphexample.png" width="60%" aling="center">
 
 **Gremlin:**
 ```

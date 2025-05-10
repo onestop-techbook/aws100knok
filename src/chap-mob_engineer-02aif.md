@@ -10,9 +10,10 @@ class: chapter
 
 <img src="images/chap-mob_engineer-certificates/aws-certified-ai-practitioner.png" width="40%">
 
-## 前置き
+
 
 **AWS Certified Solutions Architect - Associate**から続いて第2弾となります。
+
 今回は新設された**AWS Certified AI Practitioner**に関する内容について執筆したいと思います。
 
 ## どういった資格なのか？
@@ -49,7 +50,7 @@ class: chapter
             <a href="https://x.com/mob_engineer">@mob_engineer</a>
         </div>
         <div>
-            サークル名：JAWS-UG 彩の国埼玉支部
+            AWS-UG 彩の国埼玉支部
         </div>
     </div>
 </div>

@@ -33,7 +33,7 @@ EPICチームのEQに紐付いた様々な考え方は、このようなスト�
 
 ### 自分と上手く付き合う
 
-EPICチームのセッションの一例として、YouTubeのAWS Eventsチャンネルで公開されているビデオに「How to increase resilience and prevent burnout (INO103)([https://www.youtube.com/watch?v=hBsX5h9cGnA](https://www.youtube.com/watch?v=hBsX5h9cGnA))」という、燃え尽き症候群の防止についてのセッションがあります。
+EPICチームのセッションの一例として、YouTubeのAWS Eventsチャンネルで公開されているビデオに「How to increase resilience and prevent burnout (INO103)<span class="footnote">https://www.youtube.com/watch?v=hBsX5h9cGnA</span>」という、燃え尽き症候群の防止についてのセッションがあります。
 
 皆さんは燃え尽き症候群という名前を聞いたことはありますか。燃え尽き症候群はそれまで精力的に頑張っていた人が、あたかも燃え尽きたように、元気を無くしてしまうような状態を指します。
 
@@ -68,7 +68,7 @@ re:InventでEPICチームののセッションを見たときから、私は「�
 しかし、残念ながら日本ではまだ一部の顧客やパートナーにしか提供されていないように見えます。
 そのため、EPICチームのアウトプットから学ぶしかありません。EPICチームのアウトプットは、YouTubeやAWSのWebサイト（例えば、[https://aws.amazon.com/jp/executive-insights/content/emotional-intelligence/](https://aws.amazon.com/jp/executive-insights/content/emotional-intelligence/)）で見ることができます。
 
-私のおすすめは、YouTubeの「AWS Eventsチャンネル（[https://www.youtube.com/@AWSEventsChannel](https://www.youtube.com/@AWSEventsChannel)）」です。AWS Eventsチャンネルでは、過去のre:Inventで行われたセッションの多くが無料で公開されています。その中にEPICチームの発表がいくつかあります。
+私のおすすめは、YouTubeの「AWS Eventsチャンネル<span class="footnote">AWS Eventsチャンネル https://www.youtube.com/@AWSEventsChannel</span>」です。AWS Eventsチャンネルでは、過去のre:Inventで行われたセッションの多くが無料で公開されています。その中にEPICチームの発表がいくつかあります。
 気になった方はぜひ、AWS Eventsチャンネル内を「EQ」や「Emotional Intelligence」といったキーワードで検索してみてください。
 
 #### 著者紹介

@@ -16,8 +16,13 @@ class: chapter
 ## ワークショップスタジオかAWSドキュメントに試作手順が掲載されている
 AWSサービスの種類によっては「workshop studio」というAWSのページにハンズオンがあります。もしworkshop studioにハンズオンが見つからない場合は各サービスの「AWSドキュメント」の左メニューにある「はじめる」や「最初の〇〇を作成する」「サンプル～」を選択すると簡単な試作物を作る手順が紹介されています。このページの内容も未経験のAWSサービスを試すにはとても良いと思います
 
-Amazon QuickSightのハンズオン：https://catalog.us-east-1.prod.workshops.aws/workshops/aa601d0b-84c9-4f77-b9a7-5954d8574cd5/ja-JP  
-AWS LambdaのAWSドキュメント：https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/getting-started.html
+Amazon QuickSightのハンズオン：
+
+https://catalog.us-east-1.prod.workshops.aws/workshops/aa601d0b-84c9-4f77-b9a7-5954d8574cd5/ja-JP  
+
+AWS LambdaのAWSドキュメント：
+
+https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/getting-started.html
 
 ## ハンズオン利用時の注意
 ハンズオンと言えど、それらを構築する際に自身のAWSアカウントを利用すれば利用料金が必要になります。ハンズオンを利用する環境と利用料金を考慮してハンズオンを実施してください。

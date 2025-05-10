@@ -28,6 +28,8 @@ BuilderCards日本語版は入手が難しいですが、英語版なら海外�
 
 ただし、Amazonアカウントは国ごとに作成する必要があるため、日本のアカウントは使えません。海外アカウント作成に抵抗がある方は、JAWS-UG（AWSユーザーグループ）の支部イベントで体験会に参加するか、各支部の運営に体験会開催を相談してみることをお勧めします。
 
+<hr class="page-wrap" />
+
 ## AWS Jam
 
 https://aws.amazon.com/jp/training/digital/aws-jam/
