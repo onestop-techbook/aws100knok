@@ -21,6 +21,20 @@ AWS Pricing Calculator：https://calculator.aws/#/
 
 S3の料金計算要素解説ページ：https://aws.amazon.com/jp/s3/pricing/
 
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+
+
+
 #### 著者紹介
 
 ---

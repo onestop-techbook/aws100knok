@@ -26,8 +26,19 @@ AWS BuilderCardsの紹介ページ：https://aws.amazon.com/jp/builders-flash/20
 英語版ルール：https://aws.amazon.com/jp/gametech/buildercards/?tag=kwim01-20
 
 
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
 
-### 著者紹介
+#### 著者紹介
 
 ---
 
