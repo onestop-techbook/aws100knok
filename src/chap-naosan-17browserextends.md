@@ -41,7 +41,7 @@ AWSサービスと直接関係はないですが、Chromeの拡張機能を利�
 <img src="images/chap-naosan-devtools/extends_30_double.png" width="80%">  
 
 
-### 著者紹介
+#### 著者紹介
 
 ---
 

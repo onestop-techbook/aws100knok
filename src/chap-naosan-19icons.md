@@ -32,7 +32,7 @@ AWS アーキテクチャアイコン：https://aws.amazon.com/jp/architecture/i
 
 
 
-### 著者紹介
+#### 著者紹介
 
 ---
 

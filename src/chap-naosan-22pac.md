@@ -27,7 +27,7 @@ AWS CloudFormation Guard を使用することでCloudFormationテンプレー�
 - デプロイ後のテスト工数や問題発生の懸念の低減が図れる
 
 
-### 著者紹介
+#### 著者紹介
 
 ---
 

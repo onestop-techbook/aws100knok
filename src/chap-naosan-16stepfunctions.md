@@ -20,7 +20,7 @@ StepFunctionsワークフロースタジオを利用すると、ステートマ�
 ↓JSON形式で表示した例  
 <img src="images/chap-naosan-devtools/stepfunctions_02_jason.png" width="100%">
 
-### 著者紹介
+#### 著者紹介
 
 ---
 
