@@ -39,6 +39,7 @@ const def = {
     "chap-kazzpapa3-aws-cloudtrail.md",
     "chap-whitebird_sp-amazon-vpc.md",
     "chap-mob_engineer-aws-resilience-hub.md",
+    "chap-takano-gizyutudouzin.md",
     // "chap-iwamot-hiring-process.md",
     // "chap-kazzpapa3-aws-cli.md",
     // "chap-otsuka-certification.md",
