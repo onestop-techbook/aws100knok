@@ -424,3 +424,11 @@ code {
   margin-right: 0.5em;
 }
 
+ /* hrで改ページ */
+ hr.page-wrap {
+	break-before: page;
+	visibility: hidden;
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+}
