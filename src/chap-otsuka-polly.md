@@ -46,7 +46,7 @@ SSMLの主な機能
 | ポーズ調整 | 発話の流れを自然にする | `<break time="500ms"/>` |
 | イントネーション調整 | 声のトーンや話速を変更 | `<prosody rate="slow">ゆっくり話す</prosody>` |
 | 発音カスタマイズ | 特定の単語の発音を指定 | `<phoneme alphabet="ipa" ph="tʃaɪna">China</phoneme>` |
-| 数字・略語の発音 | 略語や通過、日付の発音を調整 | `<say-as interpret-as="date" format="mdy">01/01/2025</say-as>` |
+| 数字・略語の発音 | 略語や通貨、日付の発音を調整 | `<say-as interpret-as="date" format="mdy">01/01/2025</say-as>` |
 
 ```xml
 <speak>
