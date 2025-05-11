@@ -5,7 +5,7 @@ const isPrint = process.argv.includes("print.pdf");
 const def = {
   //デフォルト２分でタイムアウトしちゃうので、ローカルコンパイル対応のため追加
   timeout: 300000,   // 5 分
-  
+
   title: "AWS100kno", // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
   author: "oyakata <oyakata2438@gmail.com>", // default to `author` in `package.json` or undefined.
   language: "ja", // default to undefined.
@@ -27,7 +27,7 @@ const def = {
     // 目次
     { rel: "contents" },
 
-    // 第一部 							
+    // 第一部
     "part-1-service.md",			//サービスそのものの説明、初級者向け
     "chap-mob_engineer-aws-resilience-hub.md",
     "chap-kazzpapa3-aws-cli.md",
@@ -65,7 +65,7 @@ const def = {
 	"chap-fukuchi-bedrock-custom-orchestration.md",
     "chap-aoto-appsig.md",
     "chap-kasacchiful-stepfunctions.md",
-    "chap-kazzpapa3-aws-cloudtrail.md",	
+    "chap-kazzpapa3-aws-cloudtrail.md",
 	"chap-naosan-28eventbridge.md",		//体裁著と悩ましい
 
 	"part-2-usage.md",					//相対的に上級向けっぽく
@@ -93,12 +93,12 @@ const def = {
 	"chap-mob_engineer-water-mark.md",
 	"chap-mob_engineer-security-group-type.md",
 	"chap-mob_engineer-ec2-global-group.md",
-	"chap-amixedcolor-aws.md",
+	"chap-amixedcolor-amazon-bedrock.md",
 	"chap-shfk2-cloudwatchOI.md",
   	"chap-hibiki-iic.md",
 	"chap-siba-operation.md",
 	"chap-naosan-10awsblackbelt.md",
-	"chap-naosan-37notebooklm.md",	
+	"chap-naosan-37notebooklm.md",
 	"chap-naosan-43builderscard.md",
 
 	"part-3-certification.md",				//資格試験のススメ、体験記など

@@ -83,12 +83,14 @@ Choose an AWS Quick Start application template
 
 この中でのおすすめは、 `Standalone function` です。
 なぜなら、このテンプレートは非常にシンプルだからです。また、個人的な意見としてシンプルさは理解のしやすさとカスタムのしやすさに直結すると考えています。
-特に、AWSのリソースに対して何かの操作を自動化したい時に便利です。筆者はこのテンプレートを応用して、AWSのリソースを定期的に自動で整理するシステムを作成しました。
+特に、AWSのリソースに対して何かの操作を自動化したい時に便利です。
+
+筆者はこのテンプレートを応用して、特にSandbox環境などにおける不要なAWSのリソースを、一定のルールに基づき自動で定期的に削除するシステムを作成しました。
 もしご興味ある方は、下記のリンクからJAWS FESTA 2024 in 広島での発表資料をご覧いただければと思います。
 
 https://speakerdeck.com/amixedcolor/bu-yao-narisosuwozi-dong-deding-qi-de-nizheng-li-surufang-fa-sandboxakauntonokosutowoxue-jian-siyou
 
-実装の詳細でお困りがあれば、X（@amixedcolor）にDMしていただければと思います！
+実装の詳細でお困りがあれば、いつでもX（@amixedcolor）でDMしてください！
 
 ### 対応サービスについて紹介
 
