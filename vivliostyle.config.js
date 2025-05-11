@@ -145,7 +145,7 @@ const def = {
 	"chap-naosan-42edtech.md",
 	"chap-otsukit-reinvent.md",
 	"chap-takano-gizyutudouzin.md",
-
+	"chap-Riri-BuilderCards.md",
     // 後書き
     "90-postscript.md",
     "98-authors.md",
