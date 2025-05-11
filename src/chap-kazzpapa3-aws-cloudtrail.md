@@ -26,7 +26,7 @@ AWS CloudTrail はリスク監査やガバナンス、コンプライアンス�
 | CloudTrail Lake | CloudTrail イベント履歴の拡張機能の位置付けで、最大 7 年間の長期保存が可能となります。<br>また行ベースの JSON 形式のイベント履歴を Apache ORC に変換して保存されていることで SQL ベースのクエリ機能を利用でき、複雑な検索が可能となっています。<br>証跡の上位機能にあたり、長期保存に加えて高度な分析とセキュリティ調査を目的とした機能です。 |
 
 「証跡」「CloudTrail Lake」の機能は設定に応じて費用発生があるため、お問い合わせをいただく環境によっては有効化・設定されていないことあります。
-反面「イベント履歴は」基本機能として備わっており環境に左右されず利用ができるため、前述の通り多用しています。
+反面「イベント履歴」は基本機能として備わっており環境に左右されず利用ができるため、前述の通り多用しています。
 
 本章内の以降で **CloudTrail** と呼称するものは「イベント履歴」を指すものとします。
 
@@ -37,7 +37,7 @@ AWS CloudTrail はリスク監査やガバナンス、コンプライアンス�
 | 種別 | 概要 |
 | --- | --- |
 | 管理イベント | AWS アカウント内のリソースに対して実行された「管理操作」に関する情報となります。|
-| データイベント | リソース上、あるいはリソースないで実行された「リソース操作」に関する情報となります。|
+| データイベント | リソース上、あるいはリソース内で実行された「リソース操作」に関する情報となります。|
 | ネットワークアクティビティイベント | VPC から AWS サービスへの VPC エンドポイントを使用した AWS API 呼び出しを記録するものです。 |
 | インサイトイベント | AWS アカウント内の異常な API 呼び出し率やエラー率のアクティビティを記録するものです。 |
 
@@ -97,7 +97,7 @@ aws cloudtrail lookup-events \
 また、検索条件においては、`AttributeKey` と `AttributeValue` の組み合わせを **一対のみ** 指定可能であることもマネジメントコンソールでも AWS CLI でも同一です。
 
 できることは GUI でも CUI でも変わらないものの、CUI での実施であればテキストドキュメントとして利用が可能です。
-ページネーションの概念は同様に存在するもののプログラムの組み方で再起的にテキストドキュメントとして整形できるメリットもあります。
+ページネーションの概念は同様に存在するもののプログラムの組み方で再帰的にテキストドキュメントとして整形できるメリットもあります。
 また、好みに応じて jq などを用いて CSV 化したり、grep コマンドで追加の検索も可能です。
 
 マネジメントコンソールでは実現できない `ec2.amazonaws.com` を `EventSource` に持ち、`sessionContext` に特定のユーザーが含まれる操作、などの検索も容易だと考えます。
@@ -121,7 +121,7 @@ AWS 公式ドキュメントを整理すると以下のように整理できま�
 
 実はここまでの内容は、JAWS-UG の CLI 専門支部で LT 登壇した際にまとめていた内容です。<span class="footnote">[JAWS-UG CLI専門支部 #412 CloudShell入門](https://jawsug-cli.connpass.com/event/324664/) https://jawsug-cli.connpass.com/event/324664/</span>    
 特定の AWS API イベント名を示す `EventName` であれば、公式ドキュメントから探すことは可能です。<span class="footnote">[Actions, resources, and condition keys for AWS services](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html </span>  
-ただ `EventSource` として利用可能な文字列（名前空間）が公式情報に網羅的に記されたドキュメントがないことを登壇時に嘆いていました。CUI で完結したいのに、知るためにはマネコンでイベントソースプルダウンを実際に確認するしかない点をナンセンスに思っていました。
+ただ `EventSource` として利用可能な文字列（名前空間）が公式情報に網羅的に記されたドキュメントがないことを登壇時に嘆いていました。CUI で完結したいのに、知るためにはマネジメントコンソールでイベントソースプルダウンを実際に確認するしかない点をナンセンスに思っていました。
 
 ### Service Reference の活用
 
