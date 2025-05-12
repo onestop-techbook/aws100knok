@@ -176,6 +176,7 @@ AWS CloudTrail を活用する際に AWS CLI が複雑な検索をする際に�
 
 さらに Service Reference は CloudTrail での活用のみならず、本書でおそらく誰かが書いてくれるであろう IAM のポリシー検討にも役立ちそうです。
 
+#### 著者紹介
 
 ---
 
