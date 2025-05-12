@@ -29,7 +29,8 @@ const def = {
 
     // 第一部
     "part-1-service.md",			//サービスそのものの説明、初級者向け
-    "chap-mob_engineer-aws-resilience-hub.md",
+    "chap-torapota-infra.md",
+	"chap-mob_engineer-aws-resilience-hub.md",
     "chap-kazzpapa3-aws-cli.md",
     "chap-otsuka-cloudshell.md",
     "chap-otsuka-polly.md",
