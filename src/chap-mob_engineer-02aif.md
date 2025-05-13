@@ -10,11 +10,6 @@ class: chapter
 
 <img src="images/chap-mob_engineer-certificates/aws-certified-ai-practitioner.png" width="40%">
 
-## 前置き
-
-**AWS Certified Solutions Architect - Associate**から続いて第2弾となります。
-今回は新設された**AWS Certified AI Practitioner**に関する内容について執筆したいと思います。
-
 ## どういった資格なのか？
 
 公式サイトには以下の通り示されています。

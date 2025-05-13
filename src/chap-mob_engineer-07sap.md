@@ -10,11 +10,6 @@ class: chapter
 
 <img src="images/chap-mob_engineer-certificates/aws-certified-solutions-architect-professional.png" width="40%">
 
-## 前置き
-
-**AWS Certified Advanced Networking - Specialty**から続いて第7弾となります。
-今回は**AWS Certified Solutions Architect - Professional**について執筆したいと思います。
-
 ## どういった資格なのか？
 
 公式サイトには以下の通り示されています。

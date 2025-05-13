@@ -10,14 +10,6 @@ class: chapter
 
 <img src="images/chap-mob_engineer-certificates/aws-certified-sysops-administrator-associate.png" width="40%">
 
-## 前置き
-
-私自身、今年4月にAWS資格全冠（12種類）を達成しました。
-そのうえで、JAWSに積極的に参加し始めてから取得した10種についてまとめていきたいと思います。
-**※順番については私が資格取得した順番とさせていただきます。**
-
-最初は**AWS Certified Solutions Architect - Associate**について執筆したいと思います。
-
 ## どういった資格なのか？
 
 公式サイトには以下の通り示されています。
