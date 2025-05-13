@@ -8,7 +8,7 @@ class: chapter
 山本 直弥（Nao）
 </div>
 
-## はじめに
+
 ワタクシゴトですが、2025年のDevToolsの領域のAWS Community Builders (略称:CBs)に選出されました。この記事を記載している時点ではCommunityBuilderになってまだ2か月ほどですが、なってみて感じたことをこれを読んでいただいているあなたへ発信します。
 
 

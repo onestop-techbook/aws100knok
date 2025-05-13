@@ -79,9 +79,10 @@ JSON形式での設定も可能で、以下のように記載できます。
 宣言ポリシーはこれまでのポリシーと比較して、運用負荷が低くセキュアなアカウント運用を可能にするサービスだと感じています。また、APIを意識しなくてもいいためAWS入門者にも優しいサービスと言えるのではないでしょうか。
 現時点では利用可能なポリシーは少ないですが、これから充実していけばAWS Organizationsの運用がより楽になるのではないかと期待しています。
 
-### 参考
+#### 参考
 
-[Declarative policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_declarative.html):<br>
+[Declarative policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_declarative.html):
+
 https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_declarative.html
 
 #### 著者紹介

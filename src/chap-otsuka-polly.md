@@ -2,7 +2,7 @@
 class: chapter
 ---
 
-# Amazon Pollyを推したい！！
+# リアルな音声を簡単に生成できる！Amazon Pollyを推したい！！
 
 <div class="flush-right">
 大塚 雄仁 @zzzzico
@@ -15,6 +15,7 @@ Amazon Pollyは、AIを活用した高度な音声合成技術を提供し、文
 
 以下、詳細な推しポイントを紹介します！
 
+## Amazon Pollyの推しポイント！
 ### 推しポイント① 多言語対応
 Amazon Pollyは、30以上の言語と多様なアクセントに対応しており、グローバルなコンテンツ制作が容易にできます。
 
@@ -25,27 +26,27 @@ Amazon Pollyは、30以上の言語と多様なアクセントに対応してお
 Pollyを使えば世界中のユーザーに適した言語で情報を発信できます。
 
 ### 推しポイント② リアルな音声
-Pollyでは、男性・女性の音声が選択できるだけでなく、ニューラル音声（NTTS）も提供されています。
+Pollyでは、男性・女性の音声が選択できるだけでなく、ニューラル音声（NTTS）も提供されており、さまざまな声のバリエーションを使えます。
 
-声のバリエーション
 * 自然な話し方が可能（旧来の合成音声と比べて、イントネーションや抑揚がリアル）
 * キャラクターの個性に合った声を選択（落ち着いた声、明るい声など）
 * NTTS（Neural Text-to-Speech）技術を採用し、より人間らしい音声を生成
 
 ### 推しポイント③ SSML（Speech Synthesis Markup Language）
-Pollyでは、SSMLを使うことで発話の微調整が可能です。 特に以下の点がカスタマイズできます。
+PollyではSSMLを使うことで発話の微調整が可能です。 特に以下の点がカスタマイズできます。
 
 * ポーズの調整 (`<break time="500ms"/>`)
 * 声のトーン (`<prosody rate="fast" volume="loud">`)
 * 発音のカスタマイズ (`<phoneme alphabet="ipa" ph="tʃaɪna">China</phoneme>`)
 
 SSMLの主な機能
+
 | 機能 | 説明 | SSMLコード例 |
-| :--- | :--- | :--- |
+| --- | --- | --- |
 | ポーズ調整 | 発話の流れを自然にする | `<break time="500ms"/>` |
 | イントネーション調整 | 声のトーンや話速を変更 | `<prosody rate="slow">ゆっくり話す</prosody>` |
 | 発音カスタマイズ | 特定の単語の発音を指定 | `<phoneme alphabet="ipa" ph="tʃaɪna">China</phoneme>` |
-| 数字・略語の発音 | 略語や通過、日付の発音を調整 | `<say-as interpret-as="date" format="mdy">01/01/2025</say-as>` |
+| 数字・略語の発音 | 略語や通貨、日付の発音を調整 | `<say-as interpret-as="date" format="mdy">01/01/2025</say-as>` |
 
 ```xml
 <speak>
@@ -58,10 +59,11 @@ SSMLの主な機能
 
 例えば、動画のナレーションや音声アシスタントの調整に役立ちます。
 
-> 参照）
-> https://docs.aws.amazon.com/ja_jp/polly/latest/dg/supportedtags.html
+その他のタグはこちらを参照ください。
 
-## Tips
+https://docs.aws.amazon.com/ja_jp/polly/latest/dg/supportedtags.html
+
+## Amazon PollyのTips！
 ### 音声と字幕を組み合わせる
 Pollyの音声と字幕を活用することで、動画コンテンツのアクセシビリティを向上させられます。
 

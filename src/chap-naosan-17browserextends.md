@@ -8,7 +8,6 @@ class: chapter
 山本 直弥（Nao）
 </div>
 
-## はじめに
 AWSサービスと直接関係はないですが、Chromeの拡張機能を利用することでAWSに関する業務の一部を効率化できる場面もあります。例えば、会議中に画面共有をして第三者にAWSマネジメントコンソールの画面を見せる場合、アカウントIDなど他の人には知られたくない情報がどうしても画面に表示されてしまいます。今回はこの機密情報を自動でマスキングしてくれる拡張機能を紹介します。
 
 ### AWSの機密情報を自動でマスキング！「AWS Masking」
@@ -28,6 +27,7 @@ AWSサービスと直接関係はないですが、Chromeの拡張機能を利�
 
 ↓設定画面1。正規表現でマスク対象を定義する  
 <img src="images/chap-naosan-devtools/extends_21_setting01.png" width="50%">  
+
 ↓設定画面2。背景と文字の色を同じにするとマスキングされたような見た目になる    
 <img src="images/chap-naosan-devtools/extends_22_setting02.png" width="50%">  
 

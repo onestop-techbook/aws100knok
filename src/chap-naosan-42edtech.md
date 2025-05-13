@@ -13,21 +13,20 @@ class: chapter
 ## EdTechとは？IT技術と教育のコラボレーション！
 EdTechとは教育(Education)と技術(Technology)を組合せて造語です。一昔前だとeラーニングという言葉で動画の講義映像やインターネットを通じた講義などが行われていました。時が経つごとに技術が発展し、昔よりも様々な形でEdTechが提供されています。AWSサービスを使ったEdTechもAWS本体やコミュニティを跨いで積極的に行われています。 
 
-AWS Cloud for EdTech：https://aws.amazon.com/jp/education/ed-tech/
-Education-JAWS：https://education-jaws.connpass.com/
+AWS Cloud for EdTech：<span class="footnote">https://aws.amazon.com/jp/education/ed-tech/</span>
+Education-JAWS：<span class="footnote">https://education-jaws.connpass.com/</span>
+
 
 
 ## AWSの生成AIを利用したEdTech！
 近年話題の生成AIはEdTechの現場でも威力を発揮しています。例えば、授業を受ける生徒に対しては従来のeラーニング同様、動画でのコンテンツなどを配信しますが、それと同時に、生成AIにチャット形式で質問を投げかけることで回答を得られ、理解が深まります。授業を受ける側だけではなく教師の側でも、テストの採点を自動化したり、採点の補足としてAIによる解説を自動で付けることもできます。これまでになかったサービスがAWSの生成AIにより誕生し、教育現場の生徒と先生両方にメリットのあるサービスが活用されるのはとても素敵です。
 
 
-教育における生成系 AI: 授業コンテンツを活用した AI ソリューションの構築：https://aws.amazon.com/jp/blogs/news/publicsector-generative-ai-education-building-ai-solutions-using-course-lecture-content/
+教育における生成系 AI: 授業コンテンツを活用した AI ソリューションの構築：<span class="footnote">https://aws.amazon.com/jp/blogs/news/publicsector-generative-ai-education-building-ai-solutions-using-course-lecture-content/</span>
 
+<hr class="page-wrap" />
 
-
-
-
-### 著者紹介
+#### 著者紹介
 
 ---
 

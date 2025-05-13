@@ -8,7 +8,6 @@ class: chapter
 保 龍児（エイミ/amixedcolor）
 </div>
 
-## はじめに
 
 筆者はちょうど今月でAWS歴1年たったばかりの新参者ですが、一番最初に作成したAWS関連のシステムでAWS SAMを用いていました。
 右も左も分からない自分にとって、すぐにHello Worldできて、簡単にサーバーレスアプリケーションを作れるSAMは心強い味方でした。
@@ -19,7 +18,10 @@ class: chapter
 省略せずに記述すると、「AWS Serverless Application Model」です。これは、AWS上でサーバーレスアプリケーションを構築するためのフレームワークです。
 「AWS SAMテンプレート」と呼ばれるテンプレートとソースコードを記述することで、簡単にAWS上にアプリケーションを構築できます。
 
+　
+
 公式サイトはこちら
+
 https://aws.amazon.com/jp/serverless/sam/
 
 ### サーバーレスとは？
@@ -29,7 +31,10 @@ https://aws.amazon.com/jp/serverless/sam/
 
 個人的には、クラウドもインフラも何もわからないときはもちろん、完全に理解した後も使いこなし大きなアプリケーションを作れる優れもの、という認識で、こちらもAWS推しポイントの1つです。
 
+　
+
 公式サイトはこちら
+
 https://aws.amazon.com/jp/serverless/
 
 ## 推しポイント１：簡単にHello Worldできる
@@ -39,17 +44,18 @@ https://aws.amazon.com/jp/serverless/
 APIのエンドポイントをcurlなどで叩くと「Hello World」とレスポンスが返ってくるだけですが、特別詰まることなく **クラウド上にアプリケーションをデプロイできた** という体験が得られたのは、自分にとってとても嬉しいことでした。
 
 以下のURLから、公式のHello Worldチュートリアルが用意されているので、AWS アカウントを用意すればすぐに試すことができます。
+
 https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html
 
 ## 推しポイント２：豊富なテンプレートと対応サービス
 
 AWS SAMには、2025/05/05時点で16ものQuick Startテンプレートが用意されています。
-また、対応サービスも多く、なんと全サービス合わせて399もののリソースに対応しています。
+また、対応サービスも多く、なんと全サービス合わせて399ものリソースに対応しています。
 
 なぜこの2つが豊富だと嬉しいのか。もちろんやれることが多いというのはありますが、私は「AWS初心者が学習するのにもうってつけ」だと考えています。
 ちまたの「AWS CDKのコンストラクトを通してベストプラクティスの構成を学ぶ」とも似ている部分があります。
 テンプレートや、SAMを通したリソースの作成は、各サービス・各リソースの **主要機能を徐々に理解していく** ことに貢献すると考えています。
-特にテンプレートは、何かの要件をみたしたい時の（サーバーレスによる）主要な構成を知ることにもつながります。
+特にテンプレートは、何かの要件を満たしたい時の（サーバーレスによる）主要な構成を知ることにもつながります。
 
 ### テンプレートについて紹介
 
@@ -77,19 +83,25 @@ Choose an AWS Quick Start application template
 
 この中でのおすすめは、 `Standalone function` です。
 なぜなら、このテンプレートは非常にシンプルだからです。また、個人的な意見としてシンプルさは理解のしやすさとカスタムのしやすさに直結すると考えています。
-特に、AWSのリソースに対して何かの操作を自動化したい時に便利です。筆者はこのテンプレートを応用して、AWSのリソースを定期的に自動で整理するシステムを作成しました。
+特に、AWSのリソースに対して何かの操作を自動化したい時に便利です。
+
+筆者はこのテンプレートを応用して、特にSandbox環境などにおける不要なAWSのリソースを、一定のルールに基づき自動で定期的に削除するシステムを作成しました。
 もしご興味ある方は、下記のリンクからJAWS FESTA 2024 in 広島での発表資料をご覧いただければと思います。
+
 https://speakerdeck.com/amixedcolor/bu-yao-narisosuwozi-dong-deding-qi-de-nizheng-li-surufang-fa-sandboxakauntonokosutowoxue-jian-siyou
 
-実装の詳細でお困りがあれば、X（@amixedcolor）にDMしていただければと思います！
+実装の詳細でお困りがあれば、いつでもX（@amixedcolor）でDMしてください！
 
 ### 対応サービスについて紹介
 
 いろいろなサービスがありますが個人的おすすめは、AWS Lambda Function（ `AWS::Lambda::Function` ）とAWS EventBridge Rule（ `AWS::Events::Rule` ）です。
-先ほどの話に続きますが、AWS内のリソースの操作を自動化するにこれほどいい環境はないと思うほどです。
+先ほどの話に続きますが、AWS内のリソースの操作を自動化するにはこれほどいい環境はないと思うほどです。
 LambdaでSDKを呼び出し、EventBridgeでLambdaを規則的に呼び出すことで、非常に多くの処理を自動化できると考えています。
 
+　
+
 公式のリソース一覧はこちら
+
 https://docs.aws.amazon.com/ja_jp/serverlessrepo/latest/devguide/list-supported-resources.html
 
 ## 推しポイント３：CloudFormationでリソースを辿れる
@@ -126,5 +138,5 @@ AWS推しポイントの1つとして、AWS SAMを紹介させていただきま
     </div>
 </div>
 <p style="margin-top: 0.5em; margin-bottom: 2em;">
-すき：アジャイル、スクラム、新規事業開発、AWS、完全没入型仮想現実、うた、漫画、ゲーム</br>
+すき：アジャイル、スクラム、新規事業開発、AWS、完全没入型仮想現実、音楽（きく・うたう・ライブ/イベント参加）、漫画、ゲーム</br>
 </p>

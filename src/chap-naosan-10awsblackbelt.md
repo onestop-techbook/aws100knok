@@ -11,7 +11,9 @@ class: chapter
 ## AWS BlackBelt とは？
 AWSドキュメントなど各AWSサービスの詳細が記載されたページがありますが、それとは別により聞き手にわかりやすく簡潔に解説している資料が掲載されているAWSサービス別資料のページがあります。このページの各資料のヘッダーに「AWS BLACK BELT ONLINE SEMINAR」という文字が付いているので、私はこのAWSサービス別資料のことをAWS Black Beltと呼んでいます。
 
-  AWS Black Beltのページ：https://aws.amazon.com/jp/events/aws-event-resource/archive/?cards.sort-by=item.additionalFields.SortDate&cards.sort-order=desc&awsf.tech-category=*all
+AWS Black Beltのページ：
+  
+https://aws.amazon.com/jp/events/aws-event-resource/archive/?cards.sort-by=item.additionalFields.SortDate&cards.sort-order=desc&awsf.tech-category=*all
 
 ## 程よい内容のサービス別のPDF,YouTube資料で基礎から応用まで学べる
 AWSについて学びたいとき、個人的に最も詳しい資料の1つはAWSドキュメントだと思っています。ただし、このAWSドキュメントはあまりにも網羅的に詳しく書かれすぎていて1からすべて読むのには体力と集中力を使います。初心者の方もいきなりAWSドキュメントはしんどいかも。AWSドキュメントと比較してAWS BlackBeltは基礎編やコスト最適化編などある程度のまとまりで資料がまとめられているので、用途に合わせて資料を選択し学ぶことができます。PDFも図解でわかりやすいし、PDFが読むだけではわからないときはYoutubeで解説動画を視聴することもできます。

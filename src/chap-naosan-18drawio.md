@@ -8,13 +8,15 @@ class: chapter
 山本 直弥（Nao）
 </div>
 
-## はじめに
+
 AWSのアーキテクチャ図を作るとき、パワーポイントやExcelの図形と画像を使って作るのも良いですが、アーキテクチャ図のみをXML形式で出力したい場合があります。この記事ではそんな時に使えるツールを紹介します。
 
 ## ブラウザ版Draw.ioでAWSのアーキテクチャ図が作れる！
 ブラウザでDraw.io編集画面を開くことができ、そこでアーキテクチャ図を作成することができます。特定のアプリをインストールする手間がないため、すぐに利用することができます。
 
-ブラウザ版Draw.io：https://app.diagrams.net/?splash=0&libs=aws4  
+ブラウザ版Draw.io：<span class="footnote">https://app.diagrams.net/?splash=0&libs=aws4</span>
+
+
 <img src="images/chap-naosan-devtools/drawio_01_brows.png" width="60%">  
 
 
@@ -23,11 +25,20 @@ VSCodeの拡張機能としてもDraw.ioのエディタが提供されていま�
 
 
 ↓VSCodeの拡張機能「Draw.io Integration」  
-<img src="images/chap-naosan-devtools/drawio_02_extends.png" width="60%">  
+<img src="images/chap-naosan-devtools/drawio_02_extends.png" width="40%">  
 ↓Draw.io IntegrationでAWSのアイコンを使えるようにする  
 <img src="images/chap-naosan-devtools/drawio_03_extends.png" width="60%">  
-
-
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
+　  
 #### 著者紹介
 
 ---

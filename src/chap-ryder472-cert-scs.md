@@ -38,13 +38,16 @@ AWSパートナー企業の場合であれば資格取得数はティアに影�
 別にこの資格を保有していなくても､AWSのセキュリティに関する業務につくことはできます｡  
 ですが､知識の棚卸し､確認作業がてら受験してみてはいかがでしょうか｡
 
+#### 著者紹介
+---
+
 <div class="author-profile">
     <img src="images/ryder472.jpg">
     <div>
         <div>
             <b>戸井田 理 </b><br>
-            Twitter､Instagram､Misskey.io<a>@ryder472</a><br>
-            Zenn<a>https://zenn.dev/ryder472</a><br>
+            Twitter､Instagram､Misskey.io: <a>@ryder472</a><br>
+            Zenn: <a>https://zenn.dev/ryder472</a><br>
         </div>
     </div>
 </div>

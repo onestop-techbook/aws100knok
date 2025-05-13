@@ -75,7 +75,7 @@ CMD ["node", "index.js"]
 
 ### 著者のユースケース
 
-Remix サーバの構築。Remix で SSR を行う際のサーバを Lambda で起動するために利用しました。このケースの Remix サーバでは、loader, action のようなサーバサイドで実行される関数から直接DBにリクエストを送信する実装になっていました。Lambda Web Adapter を利用することで Remix サーバを VPC 内の Lambda 上で起動し、VPC 内の RDS に接続する構成でアプリケーションを稼働させることができました。
+Remix で SSR を行う際のサーバを Lambda で起動するために利用しました。このケースの Remix サーバでは、loader, action のようなサーバサイドで実行される関数から直接DBにリクエストを送信する実装になっていました。Lambda Web Adapter を利用することで Remix サーバを VPC 内の Lambda 上で起動し、VPC 内の RDS に接続する構成でアプリケーションを稼働させることができました。
 
 [Lambda Web AdapterのGitHubリポジトリ](https://github.com/awslabs/aws-lambda-web-adapter?tab=readme-ov-file#examples) にはたくさんの様々な言語やフレームワークを利用した Examples が含まれているので、Lambda Web Adapter を利用する際にとても参考になります。
 

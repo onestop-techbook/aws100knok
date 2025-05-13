@@ -12,7 +12,7 @@ class: chapter
 まず、Amazon Neptuneに利用されているグラフデータベースについて簡単に触れておきます。グラフデータベースは、ノード（点）とエッジ（線）で構成されたデータ構造を扱います。ノードは「人」「商品」「場所」といった実体を、エッジはそれらの「つながり」「関係性」を表現します。
 例えば下記のようなグラフだと、
 
-<img src="images/chap-yakumo-neptune/graphdb.png">
+<img src="images/chap-yakumo-neptune/graphdb.png" width="60%">
 
 * 「AさんはBさんの友達」
 * 「Aさんから見て、友達の友達は？」
@@ -61,7 +61,7 @@ Amazon Neptuneは、AWSが提供する**フルマネージド型のグラフデ�
 | クエリ言語 | 特徴 |
 | :--- | :--- |
 | Gremlin | 手続き型で柔軟。ネットワーク探索や「経路をたどる」ような処理に向いている。 |
-| openCyper | 宣言型でシンプル。SQLに近い感覚で書け、学習コストが低い。 |
+| openCypher | 宣言型でシンプル。SQLに近い感覚で書け、学習コストが低い。 |
 | SPARQL | 個DF/セマンティックWeb向け。意味ベースで知識を扱うユースケースに最適。 |
 
 つまり、「使い慣れた構文でアクセスできる」「ユースケースに応じてクエリ言語を選べる」というのも、Neptuneの大きな魅力です。
@@ -69,7 +69,7 @@ Amazon Neptuneは、AWSが提供する**フルマネージド型のグラフデ�
 ### 同じグラフに異なるクエリ言語でアクセスしてみる
 たとえば、次のような「Aさんの友人」を取得するクエリは、次のように表現できます。
 
-<img src="images/chap-yakumo-neptune/graphexample.png">
+<img src="images/chap-yakumo-neptune/graphexample.png" width="60%" aling="center">
 
 **Gremlin:**
 ```
@@ -109,11 +109,12 @@ Amazon Neptuneは複雑な関係を可視化、分析したいあらゆる場面
     <img src="images/yakumo.jpg">
     <div>
         <div>
-            <b>八雲慎之助</b>
-            <a href="https://twitter.com/yakumo_0905">X@yakumo_0905</a>
+            <b>八雲慎之助</b><br>
+           X：<a href="https://x.com/yakumo_0905">https://x.com/yakumo_0905</a></br> 
+            Qiita：<a href="https://qiita.com/yakumo_09">https://qiita.com/yakumo_09</a></br> 
         </div>
         <div>
-           都内のとあるAPN企業で働いています。初めて業務で扱ったAWSサービスがこのAmazon Neptuneでした。<br>QiitaやLTなどで、NeptuneやグラフDB関連についてアウトプットしています。
+           都内のとあるAPN企業で働いています。初めて触ったAWSサービスがこのAmazon Neptuneでした。<br>普段はQiitaやLTなどで、NeptuneやグラフDB関連についてアウトプットしています。
         </div>
     </div>
 </div>

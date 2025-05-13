@@ -10,7 +10,7 @@ class: chapter
 
 フロントエンド開発者にとって、デプロイは常に悩ましい問題の一つです。CI/CD の仕組みを整え、セキュリティ対策も施しつつ、ユーザー体験に優れたWebアプリケーションを素早く届けたい。そんなニーズに応えるのが、**AWS Amplify Hosting** です。今回は、私が実際に使って感じた AWS Amplify Hosting の推しポイントを紹介します。
 
-## Gitリポジトリ連携とCI/CD機能でデプロイが自動化される
+## Git連携とCI/CD機能でデプロイを自動化
 
 AWS Amplify Hosting は、GitHub・GitLab・Bitbucket などの Git リポジトリと簡単に連携でき、プルリクエストやマージに応じて自動でビルド＆デプロイが走ります。
 
