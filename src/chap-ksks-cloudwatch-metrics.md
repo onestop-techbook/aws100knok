@@ -78,7 +78,7 @@ AWS Management Console上のAmazon CloudWatch Alarmでも、正しく`In Alarm`�
 
 ## まとめ
 
-SwitchBotのデータをAmazon CloudWatch Metrics上で可視化、通知をすることで部屋の環境監視を簡単に実現できました。Amazon CloudWatch Dashboardには共有機能もある<span class="footnote">https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/monitoring/cloudwatch-dashboard-sharing.html</span>ので、これらのメトリクスから自分でDashboardを作って、Webページに埋め込み表示が可能なので、家の中で常時表示とかすると更に良いかもしれませんね。
+SwitchBotのデータをAmazon CloudWatch Metrics上で可視化、通知をすることで部屋の環境監視を簡単に実現できました。Amazon CloudWatch Dashboardには共有機能もある<span class="footnote">https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/monitoring/cloudwatch-dashboard-sharing.html</span>ので、これらのメトリクスから自分でDashboardを作って、Webページに埋め込み表示が可能です。家の中で常時表示とかすると更に良いかもしれませんね。
 
 #### 著者紹介
 
