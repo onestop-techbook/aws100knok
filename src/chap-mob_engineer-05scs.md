@@ -10,12 +10,6 @@ class: chapter
 
 <img src="images/chap-mob_engineer-certificates/aws-certified-security-specialty.png" width="40%">
 
-
-
-**AWS Certified Machine Learning Engineer - Associate**から続いて第5弾となります。
-
-今回はAWS専門資格の一つである**AWS Certified Security - Specialty**について執筆したいと思います。
-
 ## どういった資格なのか？
 
 公式サイトには以下の通り示されています。
