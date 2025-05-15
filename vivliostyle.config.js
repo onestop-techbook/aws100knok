@@ -107,6 +107,7 @@ const def = {
     "chap-otsuka-certification.md",
     "chap-beli-cert.md",
 	"chap-naosan-03awsexams.md",
+	"chap-mhiro-certification.md",
 	"chap-mob_engineer-01soa.md",
 	"chap-mob_engineer-02aif.md",
 	"chap-mob_engineer-03mls.md",
