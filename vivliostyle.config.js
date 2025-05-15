@@ -101,6 +101,7 @@ const def = {
 	"chap-naosan-10awsblackbelt.md",
 	"chap-naosan-37notebooklm.md",
 	"chap-naosan-43builderscard.md",
+	"chap-ksks-cloudwatch-metrics.md",
 
 	"part-3-certification.md",				//資格試験のススメ、体験記など
     "chap-otsuka-certification.md",
