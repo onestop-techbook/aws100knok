@@ -38,8 +38,18 @@ ITシステムの全て（言い過ぎ？）の情報が此処に集約してい
 CloudWatchバンザイ！
 
 
+#### 著者紹介
+
 ---
 
+<div class="author-profile">
+    <img src="images/siba_icon.jpg">
+    <div>
+        <div>
+            <b>siba</b>
+        </div>
+    </div>
+</div>
 
 <p style="margin-top: 0.5em; margin-bottom: 2em;">
 某IT企業で、エンジニアしてます。

@@ -5,7 +5,7 @@ const isPrint = process.argv.includes("print.pdf");
 const def = {
   //デフォルト２分でタイムアウトしちゃうので、ローカルコンパイル対応のため追加
   timeout: 300000,   // 5 分
-  
+
   title: "AWS100kno", // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
   author: "oyakata <oyakata2438@gmail.com>", // default to `author` in `package.json` or undefined.
   language: "ja", // default to undefined.
@@ -27,9 +27,10 @@ const def = {
     // 目次
     { rel: "contents" },
 
-    // 第一部 							
+    // 第一部
     "part-1-service.md",			//サービスそのものの説明、初級者向け
-    "chap-mob_engineer-aws-resilience-hub.md",
+    "chap-torapota-infra.md",
+	"chap-mob_engineer-aws-resilience-hub.md",
     "chap-kazzpapa3-aws-cli.md",
     "chap-otsuka-cloudshell.md",
     "chap-otsuka-polly.md",
@@ -40,8 +41,8 @@ const def = {
 	"chap-naosan-01infrastructurecomposer.md",
 	"chap-naosan-02iacgenerator.md",
 	"chap-shfk2-fis.md",
-	"chap-naosan-08wellarchitectedframework.md",
-	"chap-naosan-12handson.md",
+
+
 	"chap-naosan-13mitsumori.md",
 	"chap-naosan-14amazonqvscode.md",
 	"chap-naosan-15gluestudio.md",
@@ -50,7 +51,8 @@ const def = {
 	"chap-amixedcolor-aws-sum.md",
     "chap-fossamagna-amplify-hosting.md",
     "chap-fossamagna-lambda-web-adapter.md",
-	"chap-naosan-21iac.md",
+	"chap-Riri-BuilderCards.md",
+
 	"chap-naosan-22pac.md",
 	"chap-naosan-23codedeploy.md",
 	"chap-amixedcolor-amplify-gen2.md",
@@ -60,20 +62,24 @@ const def = {
 	"chap-nyagoro-AWS-S3.md",
 	"chap-hirosys-support.md",
   	"chap-whitebird_sp-s3-design-principles.md",
-	"chap-otsukit-communicationtest.md",
+    "chap-ashirasu-gameday.md",
 	"chap-fukuchi-bedrock-custom-orchestration.md",
     "chap-aoto-appsig.md",
+    "chap-kasacchiful-stepfunctions.md",
+    "chap-kazzpapa3-aws-cloudtrail.md",
+	"chap-naosan-28eventbridge.md",		//体裁著と悩ましい
 
 	"part-2-usage.md",					//相対的に上級向けっぽく
     "chap-sour23-lambda.md",
 	"chap-yuj1osm-team.md",
 	"chap-kazzpapa3-aws-technical-support.md",
     "chap-iwamot-hiring-process.md",
-    "chap-kasacchiful-stepfunctions.md",
-    "chap-kazzpapa3-aws-cloudtrail.md",	
+	"chap-naosan-08wellarchitectedframework.md",
     "chap-beli-epic.md",
+	"chap-naosan-12handson.md",
 	"chap-otsukit-cloudformation.md",
 	"chap-naosan-11awsdocument.md",
+	"chap-otsukit-communicationtest.md",
 	"chap-naosan-17browserextends.md",
 	"chap-naosan-18drawio.md",
   	"chap-takano-game.md",
@@ -81,26 +87,27 @@ const def = {
 	"chap-naosan-24codepipeline.md",
 	"chap-naosan-25s3lifecycle.md",
 	"chap-naosan-26costcut.md",
-	"chap-naosan-28eventbridge.md",		//体裁著と悩ましい
+	"chap-naosan-21iac.md",
 	"chap-naosan-27sfparallel.md",
 	"chap-naosan-29drift.md",
 	"chap-naosan-30github.md",			//体裁ちょっと悩ましい
 	"chap-mob_engineer-water-mark.md",
 	"chap-mob_engineer-security-group-type.md",
 	"chap-mob_engineer-ec2-global-group.md",
-	"chap-amixedcolor-aws.md",
+	"chap-amixedcolor-amazon-bedrock.md",
 	"chap-shfk2-cloudwatchOI.md",
   	"chap-hibiki-iic.md",
 	"chap-siba-operation.md",
-
+	"chap-naosan-10awsblackbelt.md",
+	"chap-naosan-37notebooklm.md",
+	"chap-naosan-43builderscard.md",
+	"chap-ksks-cloudwatch-metrics.md",
 
 	"part-3-certification.md",				//資格試験のススメ、体験記など
     "chap-otsuka-certification.md",
     "chap-beli-cert.md",
-    "chap-beli-gold-jacket.md",
 	"chap-naosan-03awsexams.md",
 	"chap-naosan-10awsblackbelt.md",
-	"chap-mhiroki-certification.md",
 	"chap-mob_engineer-01soa.md",
 	"chap-mob_engineer-02aif.md",
 	"chap-mob_engineer-03mls.md",
@@ -115,8 +122,8 @@ const def = {
   	"chap-harukotanabe-aws_certification.md",   //修正待ちアリ
 	"chap-naosan-31skillbuilder.md",
 	"chap-ryder472-cert-scs.md",
-	"chap-naosan-37notebooklm.md",
-	"chap-naosan-43builderscard.md",
+    "chap-beli-gold-jacket.md",
+	"chap-mhiroki-certification.md",
 
 	"part-4-community.md",					//コミュニティ、勉強会
     "chap-atsumi-community.md",
@@ -133,7 +140,6 @@ const def = {
 	"chap-kkimura-ug-kyushu.md",
   	"chap-harukotanabe-jaws_sainokuni.md",
     "chap-kazzpapa3-jawsug.md",
-    "chap-ashirasu-gameday.md",
 	"chap-naosan-32blog.md",
 	"chap-naosan-33dev.md",
 	"chap-naosan-34developersio.md",

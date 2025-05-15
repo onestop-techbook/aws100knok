@@ -10,12 +10,6 @@ class: chapter
 
 <img src="images/chap-mob_engineer-certificates/aws-certified-devops-engineer-professional.png" width="40%">
 
-
-
-**AWS Certified Solutions Architect - Professional**から続いて第8弾となります。
-
-今回は**AWS Certified DevOps Engineer - Professional**について執筆したいと思います。
-
 ## どういった資格なのか？
 
 公式サイトには以下の通り示されています。

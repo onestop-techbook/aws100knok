@@ -8,9 +8,7 @@ class: chapter
 木村 健人 @AoTo
 </div>
 
-<img src="images/aoto_profile.JPG" width="40%">
 
-## はじめに
 すべての AWS ユーザーが利用する AWS サービスと聞いて何を思い浮かべますか？こう問いかけられて **Amazon CloudWatch** を思い浮かべる方は少ないかもしれません。
 いずれかの AWS サービスを利用開始すると、ほとんどすべてのリソースは稼働状況を CloudWatch に自動的に記録し始めます。こうして多くの AWS ユーザーが意識しないうちに、CloudWatch は利用されているのです。
 
@@ -37,7 +35,7 @@ AWS 上では CloudWatch と X-Ray という異なるサービスに収集され
  - 2021年11月: AWS Distro for OopenTelemetry(ADOT) がアプリケーショントレースをサポート
  - 2023年8月: CloudWatch 統合 Agent の X-Ray, OpenTelemetry トレースの収集サポート
 
-![](images/chap-aoto-appsig/cloudwatch_apm_hisotry.png)
+![](images/chap-aoto-appsig/cloudwatch_apm_hisotry.png){width="60%"}
 
 一方で、こうした統合はメトリクス・ログ・トレースの関連性を完全に紐づけるところまではできませんでした。依然としてメトリクス・ログは CloudWatch Metrics Explorer や CloudWatch Logs Insight で探索し、トレースは X-Ray Traces から確認することになります。こうした分断を埋めるために生まれたサービスが **CloudWatch Application Signals** です！(現状はまだシグナルの完全な紐付けはできませんが、APM の中心としてさまざまな画面と統合されることを期待しています)
 
@@ -80,7 +78,7 @@ AWS ユーザーがシステムのオブザーバビリティを探求しより�
 ---
 
 <div class="author-profile">
-    <img src="images/aoto_profile.JPG">
+    <img src="images/aoto_profile.jpg" width="60%">
     <div>
         <div>
             <b>木村 健人(AoTo)</b>
