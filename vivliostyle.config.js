@@ -100,6 +100,7 @@ const def = {
     "chap-beli-gold-jacket.md",
 	"chap-naosan-03awsexams.md",
 	"chap-naosan-10awsblackbelt.md",
+	"chap-mhiroki-certification.md",
 	"chap-mob_engineer-01soa.md",
 	"chap-mob_engineer-02aif.md",
 	"chap-mob_engineer-03mls.md",
