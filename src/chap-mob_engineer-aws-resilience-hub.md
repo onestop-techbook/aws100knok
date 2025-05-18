@@ -29,7 +29,6 @@ AWSを触っていくなかで**とりあえず、AWSサービスを組み合わ
 ## 私の推しポイント
 
 ### 幅広いデプロイ方法をサポートしている
-### 幅広いデプロイ方法をサポートしている
 
 AWS Resilience Hubの設定画面を見てみると**CloudFormation**だけでなくアプリケーションやTerraform設定ファイルを通じて構築したリソースに対しても耐障害性を分析することができます。
 
@@ -44,7 +43,7 @@ AWS Resilience Hubの設定画面を見てみると**CloudFormation**だけで�
 
 <img src="images/chap-mob_engineer-aws-resilience-hub/snapshot002.png">
 
-### 学習リソースが揃っている
+
 ### 学習リソースが揃っている
 
 Skill BuilderやユーザーガイドにもAWS Resilience Hubについて分かりやすく説明が記載されているため、**初心者が学びやすい環境**は揃っていると考えられます。

@@ -94,10 +94,11 @@ IPだけではすぐに分からない場所の把握がスムーズにでき、
 
 ぜひぜひ、SIEM on Amazon OpenSearch Service 触ってみてください！
 
-### 出典
+#### 出典
 
 SIEM on Amazon OpenSearch Service<br>
-（出典：https://github.com/aws-samples/siem-on-amazon-opensearch-service/blob/main/README_ja.md）
+
+https://github.com/aws-samples/siem-on-amazon-opensearch-service/blob/main/README_ja.md
 
 #### 著者紹介
 
