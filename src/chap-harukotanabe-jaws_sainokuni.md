@@ -153,4 +153,4 @@ JAWS Daysの懇親会でも新たな出会いがあり、その場で運営メ�
 </div>
 <p style="margin-top: 0.5em; margin-bottom: 2em;">
 外資コンサルティングファームのエンジニア/ 未経験エンジニア向けTraining講師経験あり / Google Cloud & AWS All Certifications Holder / TOEIC940 / デグーと暮らしています
-</p>s
+</p>

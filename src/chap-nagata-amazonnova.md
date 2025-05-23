@@ -46,9 +46,11 @@ GenUはユーザー毎に利用できる生成AIやRAGを制限したりする�
 ![GenU設定1](images/chap-nagata-amazonnova/gen02.png)
 
 スタック名に「-dev」が次のように反映されます。
+
 ![GenU設定2](images/chap-nagata-amazonnova/gen03.png)
 
 動画生成AIのCloudFormationのスタック名は、VideoTmpBucketStack(環境名)(リージョン名)で出力されます。
+
 ![GenU設定3](images/chap-nagata-amazonnova/gen04.png)
 
 社内展開前に、どのリージョンのどの生成AIを使えるようにするか検討し、あらかじめ複数環境をデプロイする事をお勧めします。
